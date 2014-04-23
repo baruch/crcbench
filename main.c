@@ -61,6 +61,7 @@ static void test_bufsize(test_func_t func, size_t buf_size, size_t num_iters)
 		printf("  %"PRIu64"\n", results[iter]);
 	}
 
+	free(results);
 	free(buf);
 }
 
