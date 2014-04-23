@@ -26,6 +26,8 @@ static struct crc_funcs crc_funcs[] = {
 	{.name = "crc32_8bytes", .func = crc32_8bytes },
 	{.name = "crc32_sse42", .func = calculateCRC32C},
 	{.name = "crc_intel", .func= crc_pcl},
+	{.name = "crc32c_mark_sw", .func=crc32c_sw},
+	{.name = "crc32c_mark_hw", .func=crc32c_hw},
 };
 
 static void fill_buf(void *data, size_t data_size)
@@ -79,7 +81,7 @@ static void test(test_func_t func)
 	size_t buf_size;
 
 	for (i = 1, buf_size = 1024; i <= 10; i++, buf_size *= 2) {
-		printf(" Testing buf size %u\n", buf_size);
+		printf("Testing buf size %6u times ", buf_size);
 		size_t num_iters = 25;
 		test_bufsize(func, buf_size, num_iters);
 	}

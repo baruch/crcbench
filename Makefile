@@ -1,9 +1,9 @@
 all: crc_test
 
 CFLAGS=-O3 -g -msse4.2
-LDFLAGS=-g
+LDFLAGS=-g -lpthread
 
-crc_test: crc_brumme.o main.o crc_sse42.o crc_iscsi_v_pcl.o
+crc_test: crc_brumme.o main.o crc_sse42.o crc_iscsi_v_pcl.o crc-mark-adler.o
 	gcc -o $@ $^ ${LDFLAGS}
 
 crc_iscsi_v_pcl.o: crc_iscsi_v_pcl.asm

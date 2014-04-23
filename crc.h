@@ -12,4 +12,7 @@ uint32_t calculateCRC32C(const void *buf, size_t len, uint32_t crc);
 
 uint32_t crc_pcl(const void * buffer, size_t len, uint32_t crc_init);
 
+uint32_t crc32c_hw(const void *buf, size_t len, uint32_t crc);
+uint32_t crc32c_sw(const void *buf, size_t len, uint32_t crc);
+
 #endif
