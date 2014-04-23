@@ -48,6 +48,12 @@ static void test_buf(test_func_t func, const void *buf, size_t buf_size, uint64_
 	*result = end - begin;
 }
 
+int result_cmp(const void *a, const void *b)
+{
+	const uint64_t *a1 = a, *b1 = b;
+	return (int)(*a1 - *b1);
+}
+
 static void test_bufsize(test_func_t func, size_t buf_size, size_t num_iters)
 {
 	void *buf = malloc(buf_size);
@@ -58,8 +64,10 @@ static void test_bufsize(test_func_t func, size_t buf_size, size_t num_iters)
 	for (iter = 0; iter < num_iters; iter++) {
 		fill_buf(buf, buf_size);
 		test_buf(func, buf, buf_size, &results[iter]);
-		printf("  %"PRIu64"\n", results[iter]);
 	}
+
+	qsort(results, num_iters, sizeof(results[0]), result_cmp);
+	printf("Results: %10"PRIu64" %10"PRIu64" %10"PRIu64" %10"PRIu64" %10"PRIu64"\n", results[num_iters/6], results[num_iters*2/6], results[num_iters*3/6], results[num_iters*4/6], results[num_iters*5/6]);
 
 	free(results);
 	free(buf);
@@ -90,6 +98,7 @@ int main()
 
 	for (i = 0; i < sizeof(crc_funcs)/sizeof(crc_funcs[0]); i++) {
 		printf("Testing %s\n", crc_funcs[i].name);
+		fflush(stdout);
 		test(crc_funcs[i].func);
 		printf("\n");
 	}
