@@ -47,7 +47,7 @@ static pthread_once_t crc32c_once_sw = PTHREAD_ONCE_INIT;
 static uint32_t crc32c_table[8][256];
 
 /* Construct table for software CRC-32C calculation. */
-static void crc32c_init_sw(void)
+static void crc32c_init_sw(void) __attribute__((no-sse))
 {
     uint32_t n, crc, k;
 
