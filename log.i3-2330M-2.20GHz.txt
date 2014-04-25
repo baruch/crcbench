@@ -1,0 +1,1638 @@
+Priority set, ret=0: Success
+FIFO set, ret=0: Success
+Affinity set, ret=0: Success
+Testing crc32_bitwise
+test-crc32c: FAIL: [actual=e04ad808, expected=c1d04330]
+test-crc32c: FAIL: [actual=eebf3d63, expected=cfc4ae1d]
+test-crc32c: FAIL: [actual=f3f710c1, expected=c99465aa]
+test-crc32c: FAIL: [actual=fc23a155, expected=7e627e58]
+test-crc32c: FAIL: [actual=faa5cc14, expected=8a9136aa]
+test-crc32c: FAIL: [actual=f4f83c42, expected=62a8ab43]
+test-crc32c: FAIL: [actual=f44be05f, expected=113fdb5c]
+test-crc32c: FAIL: [actual=ed1ce47e, expected=d9963a56]
+test-crc32c: FAIL: [actual=fbc92b9e, expected=46dd794e]
+test-crc32c: FAIL: [actual=e650cf04, expected=0e2c157f]
+test-crc32c: FAIL: [actual=f319fa40, expected=e980ebf6]
+test-crc32c: FAIL: [actual=f6b4f0a9, expected=de74bded]
+test-crc32c: FAIL: [actual=ef620e45, expected=d579c862]
+test-crc32c: FAIL: [actual=e36bd5e7, expected=ba979ad0]
+test-crc32c: FAIL: [actual=fbecb047, expected=2b29d913]
+test-crc32c: FAIL: [actual=e9268d2e, expected=24c5d375]
+size=      64/align=0/ (cycles/byte):        54.3       54.5       54.5       54.9       54.9
+size=      64/align=1/ (cycles/byte):        54.4       54.5       54.9       54.9       54.9
+size=      64/align=2/ (cycles/byte):        54.3       54.5       54.5       54.5       54.9
+size=      64/align=3/ (cycles/byte):        54.3       54.3       54.5       54.9       54.9
+size=      64/align=4/ (cycles/byte):        54.3       54.5       54.5       54.9       54.9
+size=      64/align=5/ (cycles/byte):        54.2       54.3       54.5       54.9       55.2
+size=      64/align=6/ (cycles/byte):        54.3       54.5       54.5       54.5       54.9
+size=      64/align=7/ (cycles/byte):        54.1       54.3       54.5       54.9       54.9
+
+size=     128/align=0/ (cycles/byte):        45.7       45.7       49.8       54.9       54.9
+size=     128/align=1/ (cycles/byte):        39.3       45.7       45.8         46       54.9
+size=     128/align=2/ (cycles/byte):        37.4       37.4       37.4       37.6       38.1
+size=     128/align=3/ (cycles/byte):        37.4       37.4       37.5       37.6       37.6
+size=     128/align=4/ (cycles/byte):        37.4       37.4       37.5       37.5       37.6
+size=     128/align=5/ (cycles/byte):        37.4       37.4       37.4       37.5       37.6
+size=     128/align=6/ (cycles/byte):        37.4       37.4       37.4       37.5       37.6
+size=     128/align=7/ (cycles/byte):        37.4       37.4       37.4       37.5       37.6
+
+size=     256/align=0/ (cycles/byte):        37.2       37.2       37.2       37.6       37.6
+size=     256/align=1/ (cycles/byte):        37.2       37.2       37.6       37.6       40.9
+size=     256/align=2/ (cycles/byte):        40.9       40.9       40.9       41.3       41.4
+size=     256/align=3/ (cycles/byte):        40.9       40.9       40.9       41.3       41.4
+size=     256/align=4/ (cycles/byte):        40.9       40.9       41.1       41.4       41.4
+size=     256/align=5/ (cycles/byte):        40.9       40.9       40.9       41.3       41.4
+size=     256/align=6/ (cycles/byte):        37.2       37.2       37.6       40.9       40.9
+size=     256/align=7/ (cycles/byte):        37.2       37.2       37.2       37.2       37.6
+
+size=     512/align=0/ (cycles/byte):        37.1       37.1       37.1       37.2       37.2
+size=     512/align=1/ (cycles/byte):        37.1       37.1       37.1       37.2       37.4
+size=     512/align=2/ (cycles/byte):        37.1       37.1       37.4       37.4       37.4
+size=     512/align=3/ (cycles/byte):        37.1       37.1       37.1       37.4       37.4
+size=     512/align=4/ (cycles/byte):        37.1       37.1       37.1       37.2       37.4
+size=     512/align=5/ (cycles/byte):        37.1       37.1       37.1       37.4       37.4
+size=     512/align=6/ (cycles/byte):        37.1       37.1       37.1       37.4       37.4
+size=     512/align=7/ (cycles/byte):        37.1       37.1       37.1       37.4       37.4
+
+size=    1024/align=0/ (cycles/byte):          37         37       37.1       37.3       37.3
+size=    1024/align=1/ (cycles/byte):          37         37       37.3       37.3       37.3
+size=    1024/align=2/ (cycles/byte):          37         37       37.1       37.3       37.3
+size=    1024/align=3/ (cycles/byte):          37       37.1       37.1       37.1       37.3
+size=    1024/align=4/ (cycles/byte):          37         37         37       37.3       37.3
+size=    1024/align=5/ (cycles/byte):          37       37.1       37.1       37.3       37.3
+size=    1024/align=6/ (cycles/byte):          37         37       37.2       37.3       37.3
+size=    1024/align=7/ (cycles/byte):          37         37         37       37.3       37.3
+
+size=    2048/align=0/ (cycles/byte):          37         37       37.1       37.3       37.3
+size=    2048/align=1/ (cycles/byte):          37       37.1       37.1       37.2       37.3
+size=    2048/align=2/ (cycles/byte):          37       37.1       37.1       37.3       37.3
+size=    2048/align=3/ (cycles/byte):          37       37.1       37.1       37.1       37.3
+size=    2048/align=4/ (cycles/byte):          37         37       37.1       37.3       37.3
+size=    2048/align=5/ (cycles/byte):          37         37       37.3       37.3       37.3
+size=    2048/align=6/ (cycles/byte):          37       37.1       37.1       37.3       37.3
+size=    2048/align=7/ (cycles/byte):          37         37       37.1       37.1       37.3
+
+size=    4096/align=0/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=    4096/align=1/ (cycles/byte):        37.1       37.1       37.1       37.1       37.2
+size=    4096/align=2/ (cycles/byte):        37.1       37.1       37.1       37.1       37.2
+size=    4096/align=3/ (cycles/byte):        37.1       37.1       37.1       37.1       37.2
+size=    4096/align=4/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=    4096/align=5/ (cycles/byte):        37.1       37.1       37.1       37.1       37.2
+size=    4096/align=6/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=    4096/align=7/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+
+size=    8192/align=0/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=    8192/align=1/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=    8192/align=2/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=    8192/align=3/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=    8192/align=4/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=    8192/align=5/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=    8192/align=6/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=    8192/align=7/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+
+size=   16384/align=0/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=   16384/align=1/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=   16384/align=2/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=   16384/align=3/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=   16384/align=4/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=   16384/align=5/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=   16384/align=6/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=   16384/align=7/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+
+size=   32768/align=0/ (cycles/byte):        37.1       37.1       37.1       37.1       37.2
+size=   32768/align=1/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=   32768/align=2/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=   32768/align=3/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=   32768/align=4/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=   32768/align=5/ (cycles/byte):        37.1       37.1       37.1       37.1       37.2
+size=   32768/align=6/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=   32768/align=7/ (cycles/byte):        37.1       37.1       37.1       37.1       37.2
+
+size=   65536/align=0/ (cycles/byte):        37.1       37.1       37.1       37.1       37.2
+size=   65536/align=1/ (cycles/byte):        37.1       37.1       37.1       37.1       37.2
+size=   65536/align=2/ (cycles/byte):        37.1       37.1       37.1       37.1       37.2
+size=   65536/align=3/ (cycles/byte):        37.1       37.1       37.1       37.1       37.2
+size=   65536/align=4/ (cycles/byte):        37.1       37.1       37.1       37.1       37.2
+size=   65536/align=5/ (cycles/byte):        37.1       37.1       37.1       37.1       37.2
+size=   65536/align=6/ (cycles/byte):        37.1       37.1       37.1       37.1       37.2
+size=   65536/align=7/ (cycles/byte):        37.1       37.1       37.1       37.1       37.2
+
+size=  131072/align=0/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=  131072/align=1/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=  131072/align=2/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=  131072/align=3/ (cycles/byte):        37.1       37.1       37.1       37.1       37.2
+size=  131072/align=4/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=  131072/align=5/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=  131072/align=6/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=  131072/align=7/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+
+size=  262144/align=0/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=  262144/align=1/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=  262144/align=2/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=  262144/align=3/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=  262144/align=4/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=  262144/align=5/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=  262144/align=6/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=  262144/align=7/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+
+size=  524288/align=0/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=  524288/align=1/ (cycles/byte):        37.1       37.1       37.1       37.1       37.2
+size=  524288/align=2/ (cycles/byte):        37.1       37.1       37.1       37.2       37.2
+size=  524288/align=3/ (cycles/byte):        37.1       37.1       37.2       37.2       37.3
+size=  524288/align=4/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=  524288/align=5/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=  524288/align=6/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size=  524288/align=7/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+
+size= 1048576/align=0/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size= 1048576/align=1/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size= 1048576/align=2/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size= 1048576/align=3/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size= 1048576/align=4/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size= 1048576/align=5/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size= 1048576/align=6/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+size= 1048576/align=7/ (cycles/byte):        37.1       37.1       37.1       37.1       37.1
+
+
+Testing crc32_halfbyte
+test-crc32c: FAIL: [actual=e8b7be43, expected=c1d04330]
+test-crc32c: FAIL: [actual=8c736521, expected=cfc4ae1d]
+test-crc32c: FAIL: [actual=0d4a1185, expected=c99465aa]
+test-crc32c: FAIL: [actual=ed81f9f6, expected=7e627e58]
+test-crc32c: FAIL: [actual=190a55ad, expected=8a9136aa]
+test-crc32c: FAIL: [actual=ff6cab0b, expected=62a8ab43]
+test-crc32c: FAIL: [actual=9ab0ef72, expected=113fdb5c]
+test-crc32c: FAIL: [actual=51e17412, expected=d9963a56]
+test-crc32c: FAIL: [actual=91267e8a, expected=46dd794e]
+test-crc32c: FAIL: [actual=4fb420c5, expected=0e2c157f]
+test-crc32c: FAIL: [actual=84808556, expected=e980ebf6]
+test-crc32c: FAIL: [actual=e3072c45, expected=de74bded]
+test-crc32c: FAIL: [actual=fd3d5657, expected=d579c862]
+test-crc32c: FAIL: [actual=1da80fd8, expected=ba979ad0]
+test-crc32c: FAIL: [actual=f7ef87b6, expected=2b29d913]
+test-crc32c: FAIL: [actual=21a93993, expected=24c5d375]
+size=      64/align=0/ (cycles/byte):        22.9       22.9       23.1       23.5         24
+size=      64/align=1/ (cycles/byte):        22.9       22.9         23       23.1       23.1
+size=      64/align=2/ (cycles/byte):        22.9         23         23       23.1       23.1
+size=      64/align=3/ (cycles/byte):        22.9       22.9         23       23.1       23.1
+size=      64/align=4/ (cycles/byte):        22.9       22.9       22.9         23       23.1
+size=      64/align=5/ (cycles/byte):        21.7       21.8       22.9         23       23.1
+size=      64/align=6/ (cycles/byte):        21.6       21.7       21.7       21.8       21.8
+size=      64/align=7/ (cycles/byte):        21.6       21.7       21.8       21.8       21.9
+
+size=     128/align=0/ (cycles/byte):        21.3       21.3       21.4       21.4       21.5
+size=     128/align=1/ (cycles/byte):        21.3       21.4       21.4       21.4       21.5
+size=     128/align=2/ (cycles/byte):        21.3       21.3       21.4       21.4       21.5
+size=     128/align=3/ (cycles/byte):        21.3       21.3       21.4       21.4       21.5
+size=     128/align=4/ (cycles/byte):        21.3       21.4       21.4       21.4       21.5
+size=     128/align=5/ (cycles/byte):        21.3       21.3       21.4       21.4       21.5
+size=     128/align=6/ (cycles/byte):        21.1       21.3       21.4       21.5       21.5
+size=     128/align=7/ (cycles/byte):        20.2       20.3       20.3       20.3       20.4
+
+size=     256/align=0/ (cycles/byte):          20         20       20.1       20.1       20.2
+size=     256/align=1/ (cycles/byte):          20       20.1       20.1       20.1       20.2
+size=     256/align=2/ (cycles/byte):          20       20.1       20.1       20.1       20.2
+size=     256/align=3/ (cycles/byte):          20       20.1       20.1       20.1       20.2
+size=     256/align=4/ (cycles/byte):          20       20.1       20.1       20.2       20.2
+size=     256/align=5/ (cycles/byte):          20       20.1       20.1       20.2       20.2
+size=     256/align=6/ (cycles/byte):        19.1       19.1       19.1         20       20.1
+size=     256/align=7/ (cycles/byte):        19.1       19.1       19.1       19.1       19.1
+
+size=     512/align=0/ (cycles/byte):          19         19         19         19         19
+size=     512/align=1/ (cycles/byte):          19         19         19         19         19
+size=     512/align=2/ (cycles/byte):          19         19         19         19         19
+size=     512/align=3/ (cycles/byte):        18.1       18.1       18.1       18.1       18.1
+size=     512/align=4/ (cycles/byte):        18.1       18.1       18.1       18.1       18.1
+size=     512/align=5/ (cycles/byte):        18.1       18.1       18.1       18.1       18.2
+size=     512/align=6/ (cycles/byte):        18.1       18.1       18.1       18.1       18.1
+size=     512/align=7/ (cycles/byte):        17.3       17.3       17.3       17.3       17.3
+
+size=    1024/align=0/ (cycles/byte):        17.2       17.3       17.3       17.4       17.5
+size=    1024/align=1/ (cycles/byte):        17.2       17.3       17.4       17.5       17.5
+size=    1024/align=2/ (cycles/byte):        17.2       17.2       17.3       17.4       17.4
+size=    1024/align=3/ (cycles/byte):        17.2       17.2       17.2       17.3       17.4
+size=    1024/align=4/ (cycles/byte):        17.2       17.2       17.2       17.3       17.3
+size=    1024/align=5/ (cycles/byte):        17.2       17.2       17.2       17.3       17.4
+size=    1024/align=6/ (cycles/byte):        17.2       17.2       17.4       17.5       17.7
+size=    1024/align=7/ (cycles/byte):        17.2       17.3       17.4       17.4       17.7
+
+size=    2048/align=0/ (cycles/byte):        17.2       17.2       17.2       17.3       17.6
+size=    2048/align=1/ (cycles/byte):        17.2       17.2       17.2       17.2       17.2
+size=    2048/align=2/ (cycles/byte):        17.2       17.2       17.2       17.2       17.2
+size=    2048/align=3/ (cycles/byte):        17.2       17.2       17.2       17.2       17.2
+size=    2048/align=4/ (cycles/byte):        17.2       17.2       17.2       17.2       17.2
+size=    2048/align=5/ (cycles/byte):        17.2       17.2       17.2       17.2       17.2
+size=    2048/align=6/ (cycles/byte):        17.2       17.2       17.2       17.2       17.2
+size=    2048/align=7/ (cycles/byte):        17.2       17.2       17.2       17.2       17.2
+
+size=    4096/align=0/ (cycles/byte):        17.2       17.2       17.2       17.2       17.2
+size=    4096/align=1/ (cycles/byte):        17.2       17.2       17.2       17.2       17.2
+size=    4096/align=2/ (cycles/byte):        17.2       17.2       17.2       17.2       17.2
+size=    4096/align=3/ (cycles/byte):        17.2       17.2       17.2       17.2       17.2
+size=    4096/align=4/ (cycles/byte):        17.2       17.2       17.2       17.2       17.2
+size=    4096/align=5/ (cycles/byte):        17.2       17.2       17.2       17.2       17.2
+size=    4096/align=6/ (cycles/byte):        17.2       17.2       17.2       17.2       17.2
+size=    4096/align=7/ (cycles/byte):        17.2       17.2       17.2       17.2       17.2
+
+size=    8192/align=0/ (cycles/byte):        17.2       17.2       17.2       17.2       17.2
+size=    8192/align=1/ (cycles/byte):        17.2       17.2       17.2       17.2       17.2
+size=    8192/align=2/ (cycles/byte):        17.2       17.2       17.2       17.3       17.3
+size=    8192/align=3/ (cycles/byte):        17.3       17.3       17.4       17.4       17.4
+size=    8192/align=4/ (cycles/byte):        17.2       17.3       17.3       17.3       17.5
+size=    8192/align=5/ (cycles/byte):        17.2       17.2       17.2       17.3       17.4
+size=    8192/align=6/ (cycles/byte):        17.2       17.3       17.3       17.5       17.6
+size=    8192/align=7/ (cycles/byte):        17.2       17.2       17.2       17.3       17.3
+
+size=   16384/align=0/ (cycles/byte):        17.2       17.3       17.3       17.3       17.5
+size=   16384/align=1/ (cycles/byte):        17.2       17.2       17.2       17.2       17.2
+size=   16384/align=2/ (cycles/byte):        17.2       17.2       17.2       17.2       17.2
+size=   16384/align=3/ (cycles/byte):        17.2       17.2       17.2       17.2       17.3
+size=   16384/align=4/ (cycles/byte):        17.2       17.2       17.2       17.2       17.2
+size=   16384/align=5/ (cycles/byte):        17.2       17.2       17.2       17.2       17.2
+size=   16384/align=6/ (cycles/byte):        17.2       17.2       17.2       17.2       17.2
+size=   16384/align=7/ (cycles/byte):        17.2       17.2       17.2       17.2       17.2
+
+size=   32768/align=0/ (cycles/byte):        17.2       17.2       17.2       17.2       17.2
+size=   32768/align=1/ (cycles/byte):        17.2       17.2       17.2       17.2       17.2
+size=   32768/align=2/ (cycles/byte):        17.2       17.2       17.2       17.2       17.2
+size=   32768/align=3/ (cycles/byte):        17.2       17.2       17.2       17.2       17.2
+size=   32768/align=4/ (cycles/byte):        17.2       17.2       17.2       17.2       17.2
+size=   32768/align=5/ (cycles/byte):        17.2       17.2       17.2       17.2       17.2
+size=   32768/align=6/ (cycles/byte):        17.2       17.2       17.2       17.2       17.2
+size=   32768/align=7/ (cycles/byte):        17.2       17.2       17.2       17.2       17.2
+
+size=   65536/align=0/ (cycles/byte):        17.2       17.2       17.2       17.2       17.3
+size=   65536/align=1/ (cycles/byte):        17.2       17.2       17.2       17.2       17.2
+size=   65536/align=2/ (cycles/byte):        17.2       17.2       17.2       17.2       17.3
+size=   65536/align=3/ (cycles/byte):        17.2       17.2       17.2       17.2       17.2
+size=   65536/align=4/ (cycles/byte):        17.2       17.2       17.2       17.2       17.3
+size=   65536/align=5/ (cycles/byte):        17.2       17.2       17.2       17.2       17.2
+size=   65536/align=6/ (cycles/byte):        17.2       17.2       17.2       17.2       17.3
+size=   65536/align=7/ (cycles/byte):        17.2       17.2       17.2       17.2       17.2
+
+size=  131072/align=0/ (cycles/byte):        17.2       17.2       17.3       17.3       17.4
+size=  131072/align=1/ (cycles/byte):        17.2       17.2       17.3       17.4       17.5
+size=  131072/align=2/ (cycles/byte):        17.3       17.8       17.9         18       18.2
+size=  131072/align=3/ (cycles/byte):        17.2       17.2       17.2       17.3       17.7
+size=  131072/align=4/ (cycles/byte):        17.2       17.2       17.2       17.3       17.3
+size=  131072/align=5/ (cycles/byte):        17.2       17.2       17.2       17.2       17.3
+size=  131072/align=6/ (cycles/byte):        17.2       17.2       17.2       17.3       17.3
+size=  131072/align=7/ (cycles/byte):        17.2       17.2       17.3       17.3       17.4
+
+size=  262144/align=0/ (cycles/byte):        17.2       17.2       17.3       17.3       17.6
+size=  262144/align=1/ (cycles/byte):        17.2       17.2       17.2       17.2       17.3
+size=  262144/align=2/ (cycles/byte):        17.2       17.2       17.2       17.3       17.3
+size=  262144/align=3/ (cycles/byte):        17.2       17.2       17.2       17.2       17.3
+size=  262144/align=4/ (cycles/byte):        17.2       17.2       17.2       17.2       17.3
+size=  262144/align=5/ (cycles/byte):        17.2       17.2       17.2       17.3       17.3
+size=  262144/align=6/ (cycles/byte):        17.2       17.2       17.2       17.2       17.3
+size=  262144/align=7/ (cycles/byte):        17.2       17.2       17.2       17.2       17.3
+
+size=  524288/align=0/ (cycles/byte):        17.2       17.2       17.2       17.2       17.3
+size=  524288/align=1/ (cycles/byte):        17.2       17.2       17.2       17.3       17.3
+size=  524288/align=2/ (cycles/byte):        17.2       17.2       17.2       17.2       17.3
+size=  524288/align=3/ (cycles/byte):        17.2       17.2       17.3       17.4       17.4
+size=  524288/align=4/ (cycles/byte):        17.3       17.3       17.4       17.4       17.4
+size=  524288/align=5/ (cycles/byte):        17.3       17.4       17.4       17.4       17.4
+size=  524288/align=6/ (cycles/byte):        17.3       17.4       17.4       17.4       17.4
+size=  524288/align=7/ (cycles/byte):        17.3       17.4       17.4       17.4       17.4
+
+size= 1048576/align=0/ (cycles/byte):        17.4       17.4       17.4       17.4       17.4
+size= 1048576/align=1/ (cycles/byte):        17.4       17.4       17.4       17.4       17.4
+size= 1048576/align=2/ (cycles/byte):        17.4       17.4       17.4       17.4       17.4
+size= 1048576/align=3/ (cycles/byte):        17.4       17.4       17.4       17.4       17.4
+size= 1048576/align=4/ (cycles/byte):        17.4       17.4       17.4       17.4       17.4
+size= 1048576/align=5/ (cycles/byte):        17.3       17.4       17.4       17.4       17.4
+size= 1048576/align=6/ (cycles/byte):        17.4       17.4       17.4       17.4       17.4
+size= 1048576/align=7/ (cycles/byte):        17.4       17.4       17.4       17.4       17.4
+
+
+Testing crc32_4bytes
+test-crc32c: FAIL: [actual=e04ad808, expected=c1d04330]
+test-crc32c: FAIL: [actual=eebf3d63, expected=cfc4ae1d]
+test-crc32c: FAIL: [actual=f3f710c1, expected=c99465aa]
+test-crc32c: FAIL: [actual=fc23a155, expected=7e627e58]
+test-crc32c: FAIL: [actual=faa5cc14, expected=8a9136aa]
+test-crc32c: FAIL: [actual=f4f83c42, expected=62a8ab43]
+test-crc32c: FAIL: [actual=f44be05f, expected=113fdb5c]
+test-crc32c: FAIL: [actual=ed1ce47e, expected=d9963a56]
+test-crc32c: FAIL: [actual=fbc92b9e, expected=46dd794e]
+test-crc32c: FAIL: [actual=e650cf04, expected=0e2c157f]
+test-crc32c: FAIL: [actual=f319fa40, expected=e980ebf6]
+test-crc32c: FAIL: [actual=f6b4f0a9, expected=de74bded]
+test-crc32c: FAIL: [actual=ef620e45, expected=d579c862]
+test-crc32c: FAIL: [actual=e36bd5e7, expected=ba979ad0]
+test-crc32c: FAIL: [actual=fbecb047, expected=2b29d913]
+test-crc32c: FAIL: [actual=e9268d2e, expected=24c5d375]
+size=      64/align=0/ (cycles/byte):        3.19       3.25       3.31       3.31       3.38
+size=      64/align=1/ (cycles/byte):        3.19       3.25       3.31       3.38       3.44
+size=      64/align=2/ (cycles/byte):        3.19       3.25       3.31       3.38        3.5
+size=      64/align=3/ (cycles/byte):        3.19       3.19       3.25       3.31       3.38
+size=      64/align=4/ (cycles/byte):        3.19       3.19       3.25       3.38       3.44
+size=      64/align=5/ (cycles/byte):        3.19       3.19       3.25       3.31       3.38
+size=      64/align=6/ (cycles/byte):        3.19       3.19       3.25       3.25       3.31
+size=      64/align=7/ (cycles/byte):        3.12       3.19       3.25       3.31       3.44
+
+size=     128/align=0/ (cycles/byte):        3.28       3.31       3.34       3.38       3.47
+size=     128/align=1/ (cycles/byte):        3.28       3.31       3.34       3.38       3.44
+size=     128/align=2/ (cycles/byte):        3.28       3.31       3.34       3.34       3.41
+size=     128/align=3/ (cycles/byte):        3.28       3.31       3.38       3.38       3.44
+size=     128/align=4/ (cycles/byte):        3.25       3.28       3.31       3.34       3.44
+size=     128/align=5/ (cycles/byte):        3.28       3.31       3.34       3.38       3.44
+size=     128/align=6/ (cycles/byte):        3.28       3.31       3.34       3.38       3.41
+size=     128/align=7/ (cycles/byte):        3.25       3.28       3.31       3.34       3.41
+
+size=     256/align=0/ (cycles/byte):        3.45       3.47       3.48       3.48       3.52
+size=     256/align=1/ (cycles/byte):        3.45       3.47       3.48       3.52       3.53
+size=     256/align=2/ (cycles/byte):        3.45       3.47       3.48        3.5       3.53
+size=     256/align=3/ (cycles/byte):        3.45       3.47       3.48       3.52       3.56
+size=     256/align=4/ (cycles/byte):        3.45       3.47       3.48        3.5       3.53
+size=     256/align=5/ (cycles/byte):        3.42       3.45       3.47        3.5       3.53
+size=     256/align=6/ (cycles/byte):        3.45       3.48        3.5       3.52       3.52
+size=     256/align=7/ (cycles/byte):        3.44       3.47       3.48        3.5       3.55
+
+size=     512/align=0/ (cycles/byte):        3.38       3.38        3.4       3.41       3.44
+size=     512/align=1/ (cycles/byte):        3.38       3.38       3.41       3.42       3.45
+size=     512/align=2/ (cycles/byte):        3.37       3.38        3.4       3.41       3.44
+size=     512/align=3/ (cycles/byte):        3.37       3.38        3.4       3.42       3.45
+size=     512/align=4/ (cycles/byte):        3.38       3.38        3.4       3.41       3.45
+size=     512/align=5/ (cycles/byte):        3.37       3.39        3.4       3.41       3.43
+size=     512/align=6/ (cycles/byte):        3.38       3.39        3.4       3.42       3.43
+size=     512/align=7/ (cycles/byte):        3.38       3.39       3.41       3.41       3.43
+
+size=    1024/align=0/ (cycles/byte):        3.33       3.34       3.36       3.36       3.38
+size=    1024/align=1/ (cycles/byte):        3.34       3.35       3.36       3.36       3.38
+size=    1024/align=2/ (cycles/byte):        3.34       3.34       3.36       3.36       3.38
+size=    1024/align=3/ (cycles/byte):        3.34       3.36       3.37       3.38       3.38
+size=    1024/align=4/ (cycles/byte):        3.34       3.35       3.36       3.36       3.38
+size=    1024/align=5/ (cycles/byte):        3.33       3.34       3.36       3.37       3.37
+size=    1024/align=6/ (cycles/byte):        3.34       3.34       3.35       3.36       3.37
+size=    1024/align=7/ (cycles/byte):        3.34       3.34       3.36       3.37       3.38
+
+size=    2048/align=0/ (cycles/byte):        3.32       3.32       3.33       3.33       3.34
+size=    2048/align=1/ (cycles/byte):        3.32       3.33       3.34       3.34       3.35
+size=    2048/align=2/ (cycles/byte):        3.31       3.32       3.33       3.34       3.34
+size=    2048/align=3/ (cycles/byte):        3.32       3.33       3.33       3.34       3.34
+size=    2048/align=4/ (cycles/byte):        3.32       3.32       3.33       3.34       3.35
+size=    2048/align=5/ (cycles/byte):        3.32       3.33       3.33       3.34       3.35
+size=    2048/align=6/ (cycles/byte):        3.32       3.34       3.34       3.44        3.6
+size=    2048/align=7/ (cycles/byte):        3.32       3.33       3.33       3.34       3.35
+
+size=    4096/align=0/ (cycles/byte):        3.31       3.31       3.32       3.32       3.35
+size=    4096/align=1/ (cycles/byte):        3.32       3.32       3.33       3.33       3.34
+size=    4096/align=2/ (cycles/byte):        3.32       3.32       3.33       3.33       3.35
+size=    4096/align=3/ (cycles/byte):        3.32       3.33       3.33       3.33       3.34
+size=    4096/align=4/ (cycles/byte):        3.31       3.32       3.32       3.32       3.33
+size=    4096/align=5/ (cycles/byte):        3.32       3.33       3.33       3.33       3.34
+size=    4096/align=6/ (cycles/byte):        3.32       3.32       3.33       3.33       3.33
+size=    4096/align=7/ (cycles/byte):        3.32       3.32       3.33       3.33       3.34
+
+size=    8192/align=0/ (cycles/byte):        3.31       3.31       3.31       3.31       3.32
+size=    8192/align=1/ (cycles/byte):        3.31       3.32       3.32       3.32       3.32
+size=    8192/align=2/ (cycles/byte):        3.31       3.32       3.32       3.32       3.33
+size=    8192/align=3/ (cycles/byte):        3.31       3.31       3.32       3.32       3.32
+size=    8192/align=4/ (cycles/byte):         3.3       3.31       3.31       3.31       3.32
+size=    8192/align=5/ (cycles/byte):        3.31       3.32       3.32       3.32       3.34
+size=    8192/align=6/ (cycles/byte):        3.31       3.32       3.32       3.32       3.33
+size=    8192/align=7/ (cycles/byte):        3.31       3.32       3.32       3.32       3.33
+
+size=   16384/align=0/ (cycles/byte):         3.3       3.31       3.31       3.31       3.31
+size=   16384/align=1/ (cycles/byte):        3.31       3.31       3.32       3.32       3.34
+size=   16384/align=2/ (cycles/byte):        3.31       3.31       3.32       3.32       3.34
+size=   16384/align=3/ (cycles/byte):        3.31       3.31       3.31       3.32       3.32
+size=   16384/align=4/ (cycles/byte):         3.3       3.31       3.31       3.31       3.31
+size=   16384/align=5/ (cycles/byte):        3.31       3.31       3.31       3.32       3.33
+size=   16384/align=6/ (cycles/byte):        3.31       3.31       3.31       3.32       3.33
+size=   16384/align=7/ (cycles/byte):        3.31       3.31       3.32       3.32       3.32
+
+size=   32768/align=0/ (cycles/byte):        3.31       3.31       3.31       3.31       3.31
+size=   32768/align=1/ (cycles/byte):        3.31       3.31       3.31       3.32       3.42
+size=   32768/align=2/ (cycles/byte):        3.31       3.31       3.32       3.32       3.42
+size=   32768/align=3/ (cycles/byte):        3.31       3.31       3.32       3.32       3.42
+size=   32768/align=4/ (cycles/byte):        3.31       3.31       3.31       3.37       3.45
+size=   32768/align=5/ (cycles/byte):        3.31       3.32       3.32       3.32       3.32
+size=   32768/align=6/ (cycles/byte):        3.31       3.31       3.32       3.32       3.32
+size=   32768/align=7/ (cycles/byte):        3.31       3.31       3.32       3.32       3.32
+
+size=   65536/align=0/ (cycles/byte):         3.3        3.3       3.31       3.31       3.31
+size=   65536/align=1/ (cycles/byte):        3.31       3.31       3.31       3.31       3.31
+size=   65536/align=2/ (cycles/byte):        3.31       3.31       3.31       3.31       3.31
+size=   65536/align=3/ (cycles/byte):        3.31       3.31       3.31       3.31       3.32
+size=   65536/align=4/ (cycles/byte):         3.3        3.3       3.31       3.31       3.31
+size=   65536/align=5/ (cycles/byte):        3.31       3.31       3.31       3.31       3.31
+size=   65536/align=6/ (cycles/byte):        3.31       3.31       3.31       3.31       3.31
+size=   65536/align=7/ (cycles/byte):        3.31       3.31       3.31       3.31       3.32
+
+size=  131072/align=0/ (cycles/byte):         3.3        3.3       3.31       3.31       3.31
+size=  131072/align=1/ (cycles/byte):        3.31       3.31       3.31       3.31       3.31
+size=  131072/align=2/ (cycles/byte):        3.31       3.31       3.31       3.31       3.31
+size=  131072/align=3/ (cycles/byte):        3.31       3.31       3.31       3.31       3.31
+size=  131072/align=4/ (cycles/byte):         3.3        3.3        3.3        3.3       3.31
+size=  131072/align=5/ (cycles/byte):        3.31       3.31       3.31       3.31       3.31
+size=  131072/align=6/ (cycles/byte):        3.31       3.31       3.31       3.31       3.31
+size=  131072/align=7/ (cycles/byte):        3.31       3.31       3.31       3.31       3.31
+
+size=  262144/align=0/ (cycles/byte):         3.3        3.3        3.3        3.3       3.31
+size=  262144/align=1/ (cycles/byte):        3.31       3.31       3.31       3.31       3.32
+size=  262144/align=2/ (cycles/byte):        3.31       3.31       3.31       3.31       3.32
+size=  262144/align=3/ (cycles/byte):        3.31       3.31       3.31       3.31       3.31
+size=  262144/align=4/ (cycles/byte):         3.3        3.3        3.3        3.3       3.31
+size=  262144/align=5/ (cycles/byte):        3.31       3.31       3.31       3.31       3.32
+size=  262144/align=6/ (cycles/byte):        3.31       3.31       3.31       3.31       3.31
+size=  262144/align=7/ (cycles/byte):        3.31       3.31       3.31       3.31       3.31
+
+size=  524288/align=0/ (cycles/byte):         3.3        3.3        3.3        3.3       3.32
+size=  524288/align=1/ (cycles/byte):        3.31       3.31       3.31       3.31       3.32
+size=  524288/align=2/ (cycles/byte):        3.31       3.31       3.31       3.31       3.33
+size=  524288/align=3/ (cycles/byte):        3.31       3.31       3.31       3.32       3.33
+size=  524288/align=4/ (cycles/byte):         3.3        3.3        3.3        3.3       3.32
+size=  524288/align=5/ (cycles/byte):        3.31       3.31       3.31       3.31       3.32
+size=  524288/align=6/ (cycles/byte):        3.31       3.31       3.32       3.33       3.34
+size=  524288/align=7/ (cycles/byte):        3.31       3.31       3.31       3.33       3.33
+
+size= 1048576/align=0/ (cycles/byte):         3.3       3.31       3.31       3.32       3.33
+size= 1048576/align=1/ (cycles/byte):        3.31       3.31       3.32       3.32       3.33
+size= 1048576/align=2/ (cycles/byte):        3.31       3.31       3.32       3.32       3.33
+size= 1048576/align=3/ (cycles/byte):        3.31       3.31       3.32       3.32       3.32
+size= 1048576/align=4/ (cycles/byte):         3.3       3.31       3.31       3.31       3.31
+size= 1048576/align=5/ (cycles/byte):        3.31       3.31       3.32       3.32       3.32
+size= 1048576/align=6/ (cycles/byte):        3.31       3.31       3.32       3.32       3.32
+size= 1048576/align=7/ (cycles/byte):        3.31       3.31       3.32       3.32       3.33
+
+
+Testing crc32_8bytes
+test-crc32c: FAIL: [actual=e04ad808, expected=c1d04330]
+test-crc32c: FAIL: [actual=eebf3d63, expected=cfc4ae1d]
+test-crc32c: FAIL: [actual=f3f710c1, expected=c99465aa]
+test-crc32c: FAIL: [actual=fc23a155, expected=7e627e58]
+test-crc32c: FAIL: [actual=faa5cc14, expected=8a9136aa]
+test-crc32c: FAIL: [actual=f4f83c42, expected=62a8ab43]
+test-crc32c: FAIL: [actual=f44be05f, expected=113fdb5c]
+test-crc32c: FAIL: [actual=ed1ce47e, expected=d9963a56]
+test-crc32c: FAIL: [actual=fbc92b9e, expected=46dd794e]
+test-crc32c: FAIL: [actual=e650cf04, expected=0e2c157f]
+test-crc32c: FAIL: [actual=f319fa40, expected=e980ebf6]
+test-crc32c: FAIL: [actual=f6b4f0a9, expected=de74bded]
+test-crc32c: FAIL: [actual=ef620e45, expected=d579c862]
+test-crc32c: FAIL: [actual=e36bd5e7, expected=ba979ad0]
+test-crc32c: FAIL: [actual=fbecb047, expected=2b29d913]
+test-crc32c: FAIL: [actual=e9268d2e, expected=24c5d375]
+size=      64/align=0/ (cycles/byte):        1.81       1.81       1.88       1.94          2
+size=      64/align=1/ (cycles/byte):        1.81       1.88       1.94       1.94          2
+size=      64/align=2/ (cycles/byte):        1.88       1.88       1.94          2       2.06
+size=      64/align=3/ (cycles/byte):        1.81       1.88       1.88       1.94          2
+size=      64/align=4/ (cycles/byte):        1.81       1.88       1.88       1.94          2
+size=      64/align=5/ (cycles/byte):        1.81       1.88       1.88       1.94          2
+size=      64/align=6/ (cycles/byte):        1.81       1.81       1.88       1.94          2
+size=      64/align=7/ (cycles/byte):        1.81       1.81       1.94       1.94          2
+
+size=     128/align=0/ (cycles/byte):        1.75       1.78       1.78       1.81       1.91
+size=     128/align=1/ (cycles/byte):        1.75       1.78       1.78       1.81       1.84
+size=     128/align=2/ (cycles/byte):        1.75       1.78       1.81       1.84       1.88
+size=     128/align=3/ (cycles/byte):        1.75       1.78       1.81       1.84       1.88
+size=     128/align=4/ (cycles/byte):        1.72       1.75       1.78       1.81       1.84
+size=     128/align=5/ (cycles/byte):        1.69       1.72       1.78       1.81       1.84
+size=     128/align=6/ (cycles/byte):        1.72       1.75       1.78       1.81       1.84
+size=     128/align=7/ (cycles/byte):        1.72       1.75       1.78       1.78       1.88
+
+size=     256/align=0/ (cycles/byte):        1.69        1.7       1.72       1.73       1.78
+size=     256/align=1/ (cycles/byte):         1.7       1.73       1.75       1.77        1.8
+size=     256/align=2/ (cycles/byte):         1.7       1.72       1.73       1.77        1.8
+size=     256/align=3/ (cycles/byte):         1.7       1.72       1.75       1.75       1.78
+size=     256/align=4/ (cycles/byte):        1.69       1.72       1.73       1.75       1.77
+size=     256/align=5/ (cycles/byte):         1.7       1.72       1.73       1.75       1.78
+size=     256/align=6/ (cycles/byte):        1.69       1.69       1.72       1.72       1.73
+size=     256/align=7/ (cycles/byte):        1.67       1.69       1.72       1.73       1.75
+
+size=     512/align=0/ (cycles/byte):        1.66       1.68        1.7       1.73       1.74
+size=     512/align=1/ (cycles/byte):        1.67       1.68        1.7       1.72       1.74
+size=     512/align=2/ (cycles/byte):        1.66       1.68       1.69        1.7       1.72
+size=     512/align=3/ (cycles/byte):        1.67       1.69        1.7       1.72       1.73
+size=     512/align=4/ (cycles/byte):        1.65       1.66       1.68        1.7       1.73
+size=     512/align=5/ (cycles/byte):        1.65       1.66       1.66       1.69       1.72
+size=     512/align=6/ (cycles/byte):        1.65       1.66       1.67       1.69       1.73
+size=     512/align=7/ (cycles/byte):        1.66       1.66       1.67        1.7       1.73
+
+size=    1024/align=0/ (cycles/byte):        1.66       1.67       1.69        1.7       1.74
+size=    1024/align=1/ (cycles/byte):        1.68       1.69       1.69       1.73       1.77
+size=    1024/align=2/ (cycles/byte):        1.68        1.7        1.7       1.75       1.76
+size=    1024/align=3/ (cycles/byte):        1.68       1.68       1.69       1.71       1.74
+size=    1024/align=4/ (cycles/byte):        1.66       1.66       1.67       1.68       1.71
+size=    1024/align=5/ (cycles/byte):        1.66       1.67       1.68       1.69       1.74
+size=    1024/align=6/ (cycles/byte):        1.66       1.67       1.68       1.69       1.74
+size=    1024/align=7/ (cycles/byte):        1.66       1.67       1.68       1.68       1.75
+
+size=    2048/align=0/ (cycles/byte):        1.64       1.65       1.66       1.67       1.72
+size=    2048/align=1/ (cycles/byte):        1.65       1.66       1.67        1.7       1.73
+size=    2048/align=2/ (cycles/byte):        1.65       1.66       1.67       1.67       1.72
+size=    2048/align=3/ (cycles/byte):        1.65       1.66       1.66       1.67       1.72
+size=    2048/align=4/ (cycles/byte):        1.64       1.64       1.65       1.66       1.72
+size=    2048/align=5/ (cycles/byte):        1.64       1.65       1.65       1.66       1.67
+size=    2048/align=6/ (cycles/byte):        1.64       1.65       1.65       1.66       1.72
+size=    2048/align=7/ (cycles/byte):        1.64       1.65       1.66       1.67       1.73
+
+size=    4096/align=0/ (cycles/byte):        1.63       1.64       1.64       1.64       1.68
+size=    4096/align=1/ (cycles/byte):        1.65       1.66       1.66       1.72       1.73
+size=    4096/align=2/ (cycles/byte):        1.65       1.66       1.66       1.67       1.73
+size=    4096/align=3/ (cycles/byte):        1.65       1.65       1.66       1.66       1.73
+size=    4096/align=4/ (cycles/byte):        1.63       1.64       1.65       1.71       1.72
+size=    4096/align=5/ (cycles/byte):        1.64       1.64       1.65       1.65       1.73
+size=    4096/align=6/ (cycles/byte):        1.63       1.64       1.65       1.65       1.72
+size=    4096/align=7/ (cycles/byte):        1.64       1.64       1.65       1.65       1.67
+
+size=    8192/align=0/ (cycles/byte):        1.63       1.63       1.64       1.71       1.72
+size=    8192/align=1/ (cycles/byte):        1.65       1.65       1.65       1.66       1.73
+size=    8192/align=2/ (cycles/byte):        1.65       1.65       1.66       1.67       1.72
+size=    8192/align=3/ (cycles/byte):        1.65       1.65       1.65       1.66       1.72
+size=    8192/align=4/ (cycles/byte):        1.63       1.63       1.63       1.64       1.72
+size=    8192/align=5/ (cycles/byte):        1.64       1.64       1.64       1.65       1.72
+size=    8192/align=6/ (cycles/byte):        1.63       1.64       1.64       1.64       1.72
+size=    8192/align=7/ (cycles/byte):        1.63       1.64       1.64       1.72       1.72
+
+size=   16384/align=0/ (cycles/byte):        1.63       1.63       1.64       1.71       1.73
+size=   16384/align=1/ (cycles/byte):        1.65       1.65       1.66       1.72       1.73
+size=   16384/align=2/ (cycles/byte):        1.65       1.66       1.66       1.72       1.73
+size=   16384/align=3/ (cycles/byte):        1.65       1.65       1.72       1.73       1.73
+size=   16384/align=4/ (cycles/byte):        1.63       1.63        1.7       1.72       1.72
+size=   16384/align=5/ (cycles/byte):        1.64       1.64       1.64       1.72       1.73
+size=   16384/align=6/ (cycles/byte):        1.64       1.64       1.64       1.72       1.73
+size=   16384/align=7/ (cycles/byte):        1.63       1.64       1.64       1.65       1.65
+
+size=   32768/align=0/ (cycles/byte):        1.64       1.64       1.72       1.72       1.72
+size=   32768/align=1/ (cycles/byte):        1.66       1.72       1.73       1.73       1.73
+size=   32768/align=2/ (cycles/byte):        1.66       1.72       1.73       1.73       1.73
+size=   32768/align=3/ (cycles/byte):        1.66       1.66       1.73       1.73       1.73
+size=   32768/align=4/ (cycles/byte):        1.63       1.72       1.72       1.72       1.72
+size=   32768/align=5/ (cycles/byte):        1.64       1.64       1.72       1.73       1.73
+size=   32768/align=6/ (cycles/byte):        1.64       1.72       1.73       1.73       1.73
+size=   32768/align=7/ (cycles/byte):        1.64       1.64       1.72       1.73       1.73
+
+size=   65536/align=0/ (cycles/byte):        1.71       1.71       1.71       1.71       1.72
+size=   65536/align=1/ (cycles/byte):        1.72       1.72       1.72       1.72       1.72
+size=   65536/align=2/ (cycles/byte):        1.72       1.72       1.72       1.72       1.72
+size=   65536/align=3/ (cycles/byte):        1.65       1.72       1.72       1.72       1.72
+size=   65536/align=4/ (cycles/byte):        1.71       1.71       1.71       1.71       1.72
+size=   65536/align=5/ (cycles/byte):        1.72       1.72       1.72       1.72       1.72
+size=   65536/align=6/ (cycles/byte):        1.63       1.63       1.64       1.64       1.64
+size=   65536/align=7/ (cycles/byte):        1.63       1.63       1.64       1.64       1.64
+
+size=  131072/align=0/ (cycles/byte):        1.71       1.71       1.71       1.71       1.71
+size=  131072/align=1/ (cycles/byte):        1.72       1.72       1.72       1.72       1.72
+size=  131072/align=2/ (cycles/byte):        1.64       1.64       1.65       1.65       1.72
+size=  131072/align=3/ (cycles/byte):        1.72       1.72       1.72       1.72       1.72
+size=  131072/align=4/ (cycles/byte):        1.71       1.71       1.71       1.71       1.71
+size=  131072/align=5/ (cycles/byte):        1.72       1.72       1.72       1.72       1.72
+size=  131072/align=6/ (cycles/byte):        1.72       1.72       1.72       1.72       1.72
+size=  131072/align=7/ (cycles/byte):        1.63       1.72       1.72       1.72       1.72
+
+size=  262144/align=0/ (cycles/byte):        1.63       1.63       1.71       1.71       1.72
+size=  262144/align=1/ (cycles/byte):        1.71       1.72       1.72       1.72       1.72
+size=  262144/align=2/ (cycles/byte):        1.72       1.72       1.72       1.72       1.72
+size=  262144/align=3/ (cycles/byte):        1.72       1.72       1.72       1.72       1.72
+size=  262144/align=4/ (cycles/byte):        1.64       1.71       1.71       1.71       1.71
+size=  262144/align=5/ (cycles/byte):        1.72       1.72       1.72       1.72       1.72
+size=  262144/align=6/ (cycles/byte):        1.66       1.72       1.72       1.72       1.72
+size=  262144/align=7/ (cycles/byte):        1.72       1.72       1.72       1.72       1.72
+
+size=  524288/align=0/ (cycles/byte):        1.63       1.66       1.71       1.71       1.71
+size=  524288/align=1/ (cycles/byte):        1.64       1.65       1.71       1.72       1.72
+size=  524288/align=2/ (cycles/byte):        1.67        1.7       1.72       1.72       1.72
+size=  524288/align=3/ (cycles/byte):        1.68       1.71       1.72       1.72       1.72
+size=  524288/align=4/ (cycles/byte):        1.63       1.68       1.71       1.71       1.71
+size=  524288/align=5/ (cycles/byte):        1.65       1.72       1.72       1.72       1.72
+size=  524288/align=6/ (cycles/byte):        1.63       1.65       1.69       1.72       1.72
+size=  524288/align=7/ (cycles/byte):        1.67       1.72       1.72       1.72       1.72
+
+size= 1048576/align=0/ (cycles/byte):        1.64       1.65       1.66       1.68       1.68
+size= 1048576/align=1/ (cycles/byte):        1.66       1.66       1.67       1.68       1.69
+size= 1048576/align=2/ (cycles/byte):        1.66       1.67       1.67       1.68       1.69
+size= 1048576/align=3/ (cycles/byte):        1.66       1.66       1.67       1.68       1.69
+size= 1048576/align=4/ (cycles/byte):        1.64       1.65       1.66       1.67       1.68
+size= 1048576/align=5/ (cycles/byte):        1.65       1.66       1.67       1.67       1.69
+size= 1048576/align=6/ (cycles/byte):        1.65       1.66       1.67       1.68       1.69
+size= 1048576/align=7/ (cycles/byte):        1.65       1.66       1.67       1.68        1.7
+
+
+Testing crc32_sse42
+test-crc32c: PASS: [actual=c1d04330, expected=c1d04330]
+test-crc32c: PASS: [actual=cfc4ae1d, expected=cfc4ae1d]
+test-crc32c: PASS: [actual=c99465aa, expected=c99465aa]
+test-crc32c: PASS: [actual=7e627e58, expected=7e627e58]
+test-crc32c: PASS: [actual=8a9136aa, expected=8a9136aa]
+test-crc32c: PASS: [actual=62a8ab43, expected=62a8ab43]
+test-crc32c: PASS: [actual=113fdb5c, expected=113fdb5c]
+test-crc32c: PASS: [actual=d9963a56, expected=d9963a56]
+test-crc32c: PASS: [actual=46dd794e, expected=46dd794e]
+test-crc32c: PASS: [actual=0e2c157f, expected=0e2c157f]
+test-crc32c: PASS: [actual=e980ebf6, expected=e980ebf6]
+test-crc32c: PASS: [actual=de74bded, expected=de74bded]
+test-crc32c: PASS: [actual=d579c862, expected=d579c862]
+test-crc32c: PASS: [actual=ba979ad0, expected=ba979ad0]
+test-crc32c: PASS: [actual=2b29d913, expected=2b29d913]
+test-crc32c: PASS: [actual=24c5d375, expected=24c5d375]
+size=      64/align=0/ (cycles/byte):        0.75       0.75      0.812      0.812      0.812
+size=      64/align=1/ (cycles/byte):       0.938          1          1          1          1
+size=      64/align=2/ (cycles/byte):       0.875      0.938      0.938      0.938      0.938
+size=      64/align=3/ (cycles/byte):       0.812      0.875      0.875      0.875      0.875
+size=      64/align=4/ (cycles/byte):       0.812      0.812      0.812      0.812      0.875
+size=      64/align=5/ (cycles/byte):       0.812      0.812      0.812      0.812      0.812
+size=      64/align=6/ (cycles/byte):       0.688      0.688      0.688      0.688       0.75
+size=      64/align=7/ (cycles/byte):       0.688      0.688      0.688      0.688      0.688
+
+size=     128/align=0/ (cycles/byte):       0.562      0.594      0.594      0.594      0.594
+size=     128/align=1/ (cycles/byte):       0.688      0.688      0.688      0.688      0.688
+size=     128/align=2/ (cycles/byte):       0.656      0.656      0.656      0.688      0.688
+size=     128/align=3/ (cycles/byte):       0.625      0.625      0.656      0.656      0.656
+size=     128/align=4/ (cycles/byte):       0.594      0.594      0.594      0.594      0.625
+size=     128/align=5/ (cycles/byte):       0.562      0.562      0.562      0.562      0.594
+size=     128/align=6/ (cycles/byte):       0.531      0.531      0.531      0.531      0.531
+size=     128/align=7/ (cycles/byte):         0.5        0.5      0.531      0.531      0.531
+
+size=     256/align=0/ (cycles/byte):       0.469      0.469      0.484      0.484      0.484
+size=     256/align=1/ (cycles/byte):       0.531      0.531      0.531      0.531      0.547
+size=     256/align=2/ (cycles/byte):       0.516      0.516      0.516      0.531      0.531
+size=     256/align=3/ (cycles/byte):         0.5        0.5        0.5      0.516      0.516
+size=     256/align=4/ (cycles/byte):       0.484      0.484      0.484        0.5        0.5
+size=     256/align=5/ (cycles/byte):       0.453      0.453      0.453      0.469      0.469
+size=     256/align=6/ (cycles/byte):       0.453      0.453      0.453      0.453      0.562
+size=     256/align=7/ (cycles/byte):       0.438      0.438      0.438      0.453      0.453
+
+size=     512/align=0/ (cycles/byte):        0.57       0.57       0.57       0.57      0.586
+size=     512/align=1/ (cycles/byte):       0.602      0.602      0.602      0.602      0.609
+size=     512/align=2/ (cycles/byte):       0.594      0.594      0.594      0.594      0.594
+size=     512/align=3/ (cycles/byte):       0.586      0.586      0.586      0.586      0.586
+size=     512/align=4/ (cycles/byte):       0.586      0.594      0.594      0.602      0.609
+size=     512/align=5/ (cycles/byte):       0.586      0.586      0.586      0.586      0.586
+size=     512/align=6/ (cycles/byte):        0.57       0.57       0.57       0.57       0.57
+size=     512/align=7/ (cycles/byte):        0.57       0.57       0.57      0.578      0.578
+
+size=    1024/align=0/ (cycles/byte):       0.535      0.535      0.535      0.539      0.559
+size=    1024/align=1/ (cycles/byte):       0.547      0.551      0.551      0.551      0.551
+size=    1024/align=2/ (cycles/byte):       0.547      0.547      0.547      0.547      0.547
+size=    1024/align=3/ (cycles/byte):       0.543      0.543      0.543      0.543      0.543
+size=    1024/align=4/ (cycles/byte):       0.547      0.547      0.547      0.547      0.562
+size=    1024/align=5/ (cycles/byte):       0.543      0.543      0.543      0.543      0.547
+size=    1024/align=6/ (cycles/byte):       0.535      0.535      0.535      0.535      0.543
+size=    1024/align=7/ (cycles/byte):       0.535      0.535      0.535      0.535      0.539
+
+size=    2048/align=0/ (cycles/byte):       0.518      0.518      0.518       0.52      0.529
+size=    2048/align=1/ (cycles/byte):       0.523      0.525      0.525      0.525      0.525
+size=    2048/align=2/ (cycles/byte):       0.523      0.523      0.523      0.523      0.523
+size=    2048/align=3/ (cycles/byte):       0.521      0.521      0.521      0.523      0.531
+size=    2048/align=4/ (cycles/byte):       0.521      0.523      0.523      0.523      0.527
+size=    2048/align=5/ (cycles/byte):       0.521      0.521      0.521      0.521      0.523
+size=    2048/align=6/ (cycles/byte):       0.518      0.518      0.521      0.521      0.529
+size=    2048/align=7/ (cycles/byte):       0.518      0.518       0.52       0.52      0.527
+
+size=    4096/align=0/ (cycles/byte):       0.509       0.51       0.51      0.511      0.511
+size=    4096/align=1/ (cycles/byte):       0.513      0.513      0.513      0.514      0.515
+size=    4096/align=2/ (cycles/byte):       0.512      0.512      0.513      0.514      0.514
+size=    4096/align=3/ (cycles/byte):       0.511      0.512      0.513      0.513      0.513
+size=    4096/align=4/ (cycles/byte):       0.513      0.513      0.513      0.514      0.514
+size=    4096/align=5/ (cycles/byte):       0.511      0.511      0.511      0.512      0.514
+size=    4096/align=6/ (cycles/byte):       0.509       0.51      0.511      0.511      0.511
+size=    4096/align=7/ (cycles/byte):       0.511      0.511      0.511      0.511      0.515
+
+size=    8192/align=0/ (cycles/byte):       0.505      0.505      0.505      0.505      0.556
+size=    8192/align=1/ (cycles/byte):       0.506      0.506      0.507      0.507      0.509
+size=    8192/align=2/ (cycles/byte):       0.506      0.506      0.507      0.507      0.507
+size=    8192/align=3/ (cycles/byte):       0.506      0.506      0.506      0.506      0.508
+size=    8192/align=4/ (cycles/byte):       0.506      0.506      0.506      0.506      0.507
+size=    8192/align=5/ (cycles/byte):       0.505      0.505      0.506      0.506      0.507
+size=    8192/align=6/ (cycles/byte):       0.505      0.505      0.505      0.505      0.506
+size=    8192/align=7/ (cycles/byte):       0.504      0.505      0.505      0.505      0.507
+
+size=   16384/align=0/ (cycles/byte):       0.502      0.502      0.503      0.503      0.503
+size=   16384/align=1/ (cycles/byte):       0.503      0.503      0.504      0.507       0.52
+size=   16384/align=2/ (cycles/byte):       0.503      0.503      0.503      0.503      0.503
+size=   16384/align=3/ (cycles/byte):       0.503      0.503      0.503      0.503      0.504
+size=   16384/align=4/ (cycles/byte):       0.503      0.503      0.503      0.503      0.503
+size=   16384/align=5/ (cycles/byte):       0.503      0.503      0.503      0.503      0.504
+size=   16384/align=6/ (cycles/byte):       0.502      0.503      0.503      0.503      0.504
+size=   16384/align=7/ (cycles/byte):       0.503      0.503      0.503      0.503      0.503
+
+size=   32768/align=0/ (cycles/byte):       0.501      0.501      0.501      0.501      0.502
+size=   32768/align=1/ (cycles/byte):       0.502      0.502      0.502      0.502      0.504
+size=   32768/align=2/ (cycles/byte):       0.502      0.502      0.502      0.502      0.502
+size=   32768/align=3/ (cycles/byte):       0.501      0.502      0.502      0.502      0.502
+size=   32768/align=4/ (cycles/byte):       0.502      0.502      0.502      0.502      0.503
+size=   32768/align=5/ (cycles/byte):       0.501      0.501      0.501      0.501      0.502
+size=   32768/align=6/ (cycles/byte):       0.501      0.501      0.501      0.501      0.502
+size=   32768/align=7/ (cycles/byte):       0.501      0.501      0.501      0.501      0.502
+
+size=   65536/align=0/ (cycles/byte):       0.501      0.501      0.501      0.501      0.501
+size=   65536/align=1/ (cycles/byte):       0.501      0.501      0.501      0.501      0.502
+size=   65536/align=2/ (cycles/byte):       0.501      0.501      0.501      0.501      0.502
+size=   65536/align=3/ (cycles/byte):       0.501      0.501      0.501      0.501      0.501
+size=   65536/align=4/ (cycles/byte):       0.501      0.501      0.501      0.501      0.502
+size=   65536/align=5/ (cycles/byte):       0.501      0.501      0.501      0.501      0.501
+size=   65536/align=6/ (cycles/byte):       0.501      0.501      0.501      0.501      0.501
+size=   65536/align=7/ (cycles/byte):       0.501      0.501      0.501      0.501      0.501
+
+size=  131072/align=0/ (cycles/byte):         0.5        0.5        0.5        0.5      0.501
+size=  131072/align=1/ (cycles/byte):         0.5        0.5      0.501      0.501      0.501
+size=  131072/align=2/ (cycles/byte):         0.5      0.501      0.501      0.501      0.501
+size=  131072/align=3/ (cycles/byte):         0.5        0.5        0.5        0.5        0.5
+size=  131072/align=4/ (cycles/byte):         0.5        0.5        0.5        0.5      0.501
+size=  131072/align=5/ (cycles/byte):         0.5        0.5        0.5        0.5        0.5
+size=  131072/align=6/ (cycles/byte):         0.5        0.5        0.5        0.5        0.5
+size=  131072/align=7/ (cycles/byte):         0.5        0.5        0.5        0.5        0.5
+
+size=  262144/align=0/ (cycles/byte):         0.5        0.5        0.5        0.5      0.501
+size=  262144/align=1/ (cycles/byte):         0.5        0.5        0.5        0.5      0.501
+size=  262144/align=2/ (cycles/byte):         0.5        0.5        0.5        0.5      0.501
+size=  262144/align=3/ (cycles/byte):         0.5        0.5        0.5        0.5      0.501
+size=  262144/align=4/ (cycles/byte):         0.5        0.5        0.5        0.5      0.501
+size=  262144/align=5/ (cycles/byte):         0.5        0.5        0.5        0.5      0.501
+size=  262144/align=6/ (cycles/byte):         0.5        0.5        0.5        0.5        0.5
+size=  262144/align=7/ (cycles/byte):         0.5        0.5        0.5        0.5        0.5
+
+size=  524288/align=0/ (cycles/byte):         0.5        0.5        0.5        0.5      0.501
+size=  524288/align=1/ (cycles/byte):         0.5        0.5        0.5        0.5      0.501
+size=  524288/align=2/ (cycles/byte):         0.5        0.5        0.5        0.5      0.501
+size=  524288/align=3/ (cycles/byte):         0.5        0.5        0.5        0.5      0.502
+size=  524288/align=4/ (cycles/byte):         0.5        0.5        0.5        0.5      0.504
+size=  524288/align=5/ (cycles/byte):         0.5        0.5        0.5        0.5        0.5
+size=  524288/align=6/ (cycles/byte):         0.5        0.5        0.5        0.5      0.502
+size=  524288/align=7/ (cycles/byte):         0.5        0.5        0.5      0.501      0.507
+
+size= 1048576/align=0/ (cycles/byte):       0.503      0.504      0.506      0.507      0.514
+size= 1048576/align=1/ (cycles/byte):       0.503      0.504      0.505      0.507      0.512
+size= 1048576/align=2/ (cycles/byte):       0.502      0.503      0.504      0.507      0.515
+size= 1048576/align=3/ (cycles/byte):       0.503      0.504      0.505       0.51      0.513
+size= 1048576/align=4/ (cycles/byte):       0.502      0.504      0.505      0.506      0.512
+size= 1048576/align=5/ (cycles/byte):       0.503      0.504      0.505      0.509      0.511
+size= 1048576/align=6/ (cycles/byte):       0.503      0.503      0.505      0.511      0.516
+size= 1048576/align=7/ (cycles/byte):       0.503      0.508      0.523      0.541      0.548
+
+
+Testing crc_intel
+test-crc32c: FAIL: [actual=93ad1061, expected=c1d04330]
+test-crc32c: FAIL: [actual=afa00d67, expected=cfc4ae1d]
+test-crc32c: FAIL: [actual=6345d352, expected=c99465aa]
+test-crc32c: FAIL: [actual=294802d2, expected=7e627e58]
+test-crc32c: FAIL: [actual=00000000, expected=8a9136aa]
+test-crc32c: FAIL: [actual=e8399de9, expected=62a8ab43]
+test-crc32c: FAIL: [actual=9baeedf6, expected=113fdb5c]
+test-crc32c: FAIL: [actual=f11a00ef, expected=d9963a56]
+test-crc32c: FAIL: [actual=cc4c4fe4, expected=46dd794e]
+test-crc32c: FAIL: [actual=5773a2a2, expected=0e2c157f]
+test-crc32c: FAIL: [actual=b0df5c2b, expected=e980ebf6]
+test-crc32c: FAIL: [actual=872b0a30, expected=de74bded]
+test-crc32c: FAIL: [actual=8c267fbf, expected=d579c862]
+test-crc32c: FAIL: [actual=e3c82d0d, expected=ba979ad0]
+test-crc32c: FAIL: [actual=72766ece, expected=2b29d913]
+test-crc32c: FAIL: [actual=8df6a18c, expected=24c5d375]
+size=      64/align=0/ (cycles/byte):       0.438        0.5        0.5        0.5      0.688
+size=      64/align=1/ (cycles/byte):           1          1       1.06       1.19       1.38
+size=      64/align=2/ (cycles/byte):       0.938      0.938          1       1.12       1.19
+size=      64/align=3/ (cycles/byte):       0.938      0.938          1       1.12       1.19
+size=      64/align=4/ (cycles/byte):        0.75      0.875      0.875          1       1.06
+size=      64/align=5/ (cycles/byte):        0.75      0.875      0.875      0.875       1.06
+size=      64/align=6/ (cycles/byte):       0.688      0.812      0.875          1       1.06
+size=      64/align=7/ (cycles/byte):       0.688      0.812      0.812          1          1
+
+size=     128/align=0/ (cycles/byte):        0.25       0.25       0.25       0.25      0.281
+size=     128/align=1/ (cycles/byte):         0.5      0.531      0.531      0.594       0.75
+size=     128/align=2/ (cycles/byte):         0.5        0.5      0.562      0.594      0.625
+size=     128/align=3/ (cycles/byte):       0.406        0.5        0.5      0.562      0.594
+size=     128/align=4/ (cycles/byte):       0.375      0.438      0.469      0.531      0.531
+size=     128/align=5/ (cycles/byte):       0.469      0.469      0.562      0.562      0.625
+size=     128/align=6/ (cycles/byte):       0.438      0.438      0.469      0.531      0.562
+size=     128/align=7/ (cycles/byte):       0.406      0.438        0.5      0.531      0.562
+
+size=     256/align=0/ (cycles/byte):       0.297      0.312      0.312      0.359      0.594
+size=     256/align=1/ (cycles/byte):       0.453      0.469      0.469      0.484      0.891
+size=     256/align=2/ (cycles/byte):       0.422      0.453      0.469      0.516      0.766
+size=     256/align=3/ (cycles/byte):       0.422      0.453      0.453      0.469      0.625
+size=     256/align=4/ (cycles/byte):       0.438      0.438      0.438      0.453      0.844
+size=     256/align=5/ (cycles/byte):       0.406      0.438      0.438      0.484      0.828
+size=     256/align=6/ (cycles/byte):       0.391      0.422      0.438      0.438      0.484
+size=     256/align=7/ (cycles/byte):       0.391      0.422      0.422      0.438      0.469
+
+size=     512/align=0/ (cycles/byte):       0.219      0.219      0.219      0.219      0.289
+size=     512/align=1/ (cycles/byte):       0.273      0.281      0.281      0.312        0.5
+size=     512/align=2/ (cycles/byte):       0.273      0.273      0.281      0.305        0.5
+size=     512/align=3/ (cycles/byte):       0.273      0.273      0.281      0.297      0.484
+size=     512/align=4/ (cycles/byte):       0.258      0.266      0.266      0.273      0.367
+size=     512/align=5/ (cycles/byte):        0.25      0.258      0.273      0.281      0.406
+size=     512/align=6/ (cycles/byte):        0.25      0.258      0.266      0.305      0.484
+size=     512/align=7/ (cycles/byte):       0.258      0.258      0.273      0.344      0.484
+
+size=    1024/align=0/ (cycles/byte):       0.172      0.172      0.172      0.172      0.199
+size=    1024/align=1/ (cycles/byte):       0.199      0.203      0.203      0.203       0.25
+size=    1024/align=2/ (cycles/byte):       0.195      0.199      0.199      0.199      0.266
+size=    1024/align=3/ (cycles/byte):       0.199      0.203      0.203      0.203      0.242
+size=    1024/align=4/ (cycles/byte):       0.191      0.195      0.195      0.199      0.223
+size=    1024/align=5/ (cycles/byte):       0.191      0.195      0.199      0.207      0.309
+size=    1024/align=6/ (cycles/byte):       0.191      0.191      0.191      0.199      0.246
+size=    1024/align=7/ (cycles/byte):       0.195      0.195      0.199      0.199      0.246
+
+size=    2048/align=0/ (cycles/byte):        0.15       0.15      0.154      0.158      0.164
+size=    2048/align=1/ (cycles/byte):       0.162      0.164      0.166      0.172      0.211
+size=    2048/align=2/ (cycles/byte):       0.162      0.166      0.168       0.17      0.176
+size=    2048/align=3/ (cycles/byte):       0.162      0.162      0.164      0.166      0.174
+size=    2048/align=4/ (cycles/byte):        0.16      0.162      0.166      0.168       0.18
+size=    2048/align=5/ (cycles/byte):        0.16       0.16      0.166      0.168      0.172
+size=    2048/align=6/ (cycles/byte):       0.158       0.16       0.16      0.166      0.188
+size=    2048/align=7/ (cycles/byte):       0.158       0.16       0.16      0.162      0.174
+
+size=    4096/align=0/ (cycles/byte):       0.146      0.147      0.149       0.15      0.156
+size=    4096/align=1/ (cycles/byte):       0.151      0.153      0.155      0.159       0.18
+size=    4096/align=2/ (cycles/byte):        0.15      0.151      0.153      0.155      0.157
+size=    4096/align=3/ (cycles/byte):        0.15      0.151      0.153      0.159      0.164
+size=    4096/align=4/ (cycles/byte):       0.149       0.15      0.152      0.154      0.172
+size=    4096/align=5/ (cycles/byte):       0.149      0.149      0.151      0.154      0.158
+size=    4096/align=6/ (cycles/byte):        0.15       0.15      0.151      0.154      0.157
+size=    4096/align=7/ (cycles/byte):       0.149      0.149       0.15      0.151      0.157
+
+size=    8192/align=0/ (cycles/byte):        0.14      0.141      0.142      0.146      0.165
+size=    8192/align=1/ (cycles/byte):       0.144      0.145       0.15      0.155      0.168
+size=    8192/align=2/ (cycles/byte):       0.142      0.144      0.149      0.157       0.17
+size=    8192/align=3/ (cycles/byte):       0.143      0.145      0.146      0.152      0.164
+size=    8192/align=4/ (cycles/byte):       0.143      0.144      0.146      0.149      0.159
+size=    8192/align=5/ (cycles/byte):       0.143      0.144      0.147      0.159       0.17
+size=    8192/align=6/ (cycles/byte):       0.143      0.144      0.146      0.151       0.17
+size=    8192/align=7/ (cycles/byte):       0.142      0.144      0.146      0.151      0.162
+
+size=   16384/align=0/ (cycles/byte):       0.139      0.142      0.148      0.151      0.154
+size=   16384/align=1/ (cycles/byte):       0.141      0.146      0.148       0.15      0.154
+size=   16384/align=2/ (cycles/byte):        0.14      0.143      0.148      0.149      0.155
+size=   16384/align=3/ (cycles/byte):        0.14      0.142       0.15      0.154      0.155
+size=   16384/align=4/ (cycles/byte):        0.14      0.142      0.148      0.152      0.155
+size=   16384/align=5/ (cycles/byte):       0.141      0.143      0.147      0.149      0.154
+size=   16384/align=6/ (cycles/byte):       0.142      0.146      0.148      0.151      0.154
+size=   16384/align=7/ (cycles/byte):        0.14      0.142      0.147      0.149      0.153
+
+size=   32768/align=0/ (cycles/byte):       0.141      0.143      0.145      0.146      0.151
+size=   32768/align=1/ (cycles/byte):        0.14      0.142      0.145      0.146      0.149
+size=   32768/align=2/ (cycles/byte):       0.141      0.144      0.146      0.146      0.147
+size=   32768/align=3/ (cycles/byte):       0.142      0.143      0.146      0.147      0.149
+size=   32768/align=4/ (cycles/byte):       0.141      0.142      0.145      0.146      0.149
+size=   32768/align=5/ (cycles/byte):       0.141      0.142      0.145      0.146      0.148
+size=   32768/align=6/ (cycles/byte):       0.142      0.144      0.145      0.146       0.15
+size=   32768/align=7/ (cycles/byte):       0.142      0.143      0.145      0.148      0.163
+
+size=   65536/align=0/ (cycles/byte):       0.142      0.149      0.206      0.238      0.257
+size=   65536/align=1/ (cycles/byte):       0.141      0.142      0.144      0.159      0.209
+size=   65536/align=2/ (cycles/byte):        0.14      0.141      0.142      0.142      0.143
+size=   65536/align=3/ (cycles/byte):       0.141      0.142      0.143      0.158      0.287
+size=   65536/align=4/ (cycles/byte):       0.142      0.142      0.143      0.166      0.228
+size=   65536/align=5/ (cycles/byte):       0.141      0.141      0.142      0.143      0.144
+size=   65536/align=6/ (cycles/byte):       0.141      0.142      0.143      0.143      0.144
+size=   65536/align=7/ (cycles/byte):       0.141      0.142      0.143      0.144      0.148
+
+size=  131072/align=0/ (cycles/byte):       0.143      0.154      0.172      0.286      0.326
+size=  131072/align=1/ (cycles/byte):       0.142      0.147      0.156       0.17      0.199
+size=  131072/align=2/ (cycles/byte):       0.141      0.143      0.154       0.17      0.183
+size=  131072/align=3/ (cycles/byte):       0.143      0.145      0.158      0.169      0.186
+size=  131072/align=4/ (cycles/byte):       0.142      0.143       0.15       0.16      0.166
+size=  131072/align=5/ (cycles/byte):       0.142      0.145       0.15      0.163      0.177
+size=  131072/align=6/ (cycles/byte):       0.143      0.147      0.154      0.165      0.178
+size=  131072/align=7/ (cycles/byte):       0.141      0.141      0.142      0.142      0.142
+
+size=  262144/align=0/ (cycles/byte):       0.144      0.145      0.146      0.148      0.182
+size=  262144/align=1/ (cycles/byte):       0.145      0.146      0.147      0.155      0.232
+size=  262144/align=2/ (cycles/byte):       0.145      0.145      0.146      0.146      0.155
+size=  262144/align=3/ (cycles/byte):       0.145      0.145      0.146      0.147      0.184
+size=  262144/align=4/ (cycles/byte):       0.145      0.145      0.146      0.147      0.156
+size=  262144/align=5/ (cycles/byte):       0.145      0.145      0.146      0.146      0.157
+size=  262144/align=6/ (cycles/byte):       0.145      0.145      0.146      0.146      0.147
+size=  262144/align=7/ (cycles/byte):       0.145      0.146      0.147      0.147      0.148
+
+size=  524288/align=0/ (cycles/byte):       0.149       0.15       0.15      0.151      0.157
+size=  524288/align=1/ (cycles/byte):       0.149       0.15       0.15       0.15      0.155
+size=  524288/align=2/ (cycles/byte):        0.15      0.151      0.159      0.198      0.269
+size=  524288/align=3/ (cycles/byte):        0.15      0.151      0.168      0.231      0.279
+size=  524288/align=4/ (cycles/byte):       0.188      0.235      0.266      0.293      0.318
+size=  524288/align=5/ (cycles/byte):       0.185       0.21      0.237      0.273      0.312
+size=  524288/align=6/ (cycles/byte):       0.183      0.206      0.251      0.296      0.332
+size=  524288/align=7/ (cycles/byte):       0.149      0.149      0.156      0.172      0.198
+
+size= 1048576/align=0/ (cycles/byte):       0.149      0.152      0.157      0.165      0.184
+size= 1048576/align=1/ (cycles/byte):       0.149      0.157       0.16      0.166       0.27
+size= 1048576/align=2/ (cycles/byte):        0.28      0.294      0.314      0.335      0.351
+size= 1048576/align=3/ (cycles/byte):       0.154       0.18      0.195      0.214      0.315
+size= 1048576/align=4/ (cycles/byte):       0.152      0.158      0.176       0.19      0.224
+size= 1048576/align=5/ (cycles/byte):       0.152      0.153      0.158      0.182      0.214
+size= 1048576/align=6/ (cycles/byte):       0.151      0.152       0.16      0.168      0.199
+size= 1048576/align=7/ (cycles/byte):       0.151      0.152      0.154      0.161       0.18
+
+
+Testing crc32c_mark_sw
+test-crc32c: PASS: [actual=c1d04330, expected=c1d04330]
+test-crc32c: PASS: [actual=cfc4ae1d, expected=cfc4ae1d]
+test-crc32c: PASS: [actual=c99465aa, expected=c99465aa]
+test-crc32c: PASS: [actual=7e627e58, expected=7e627e58]
+test-crc32c: PASS: [actual=8a9136aa, expected=8a9136aa]
+test-crc32c: PASS: [actual=62a8ab43, expected=62a8ab43]
+test-crc32c: PASS: [actual=113fdb5c, expected=113fdb5c]
+test-crc32c: PASS: [actual=d9963a56, expected=d9963a56]
+test-crc32c: PASS: [actual=46dd794e, expected=46dd794e]
+test-crc32c: PASS: [actual=0e2c157f, expected=0e2c157f]
+test-crc32c: PASS: [actual=e980ebf6, expected=e980ebf6]
+test-crc32c: PASS: [actual=de74bded, expected=de74bded]
+test-crc32c: PASS: [actual=d579c862, expected=d579c862]
+test-crc32c: PASS: [actual=ba979ad0, expected=ba979ad0]
+test-crc32c: PASS: [actual=2b29d913, expected=2b29d913]
+test-crc32c: PASS: [actual=24c5d375, expected=24c5d375]
+size=      64/align=0/ (cycles/byte):        2.44        2.5       2.56       2.56       2.69
+size=      64/align=1/ (cycles/byte):        3.31       3.38       3.44        3.5       3.62
+size=      64/align=2/ (cycles/byte):        3.25       3.31       3.38       3.44        3.5
+size=      64/align=3/ (cycles/byte):        3.12       3.19       3.25       3.38        3.5
+size=      64/align=4/ (cycles/byte):        3.06       3.12       3.19       3.25       3.38
+size=      64/align=5/ (cycles/byte):           3       3.06       3.12       3.12       3.25
+size=      64/align=6/ (cycles/byte):        2.88       2.94          3       3.06       3.12
+size=      64/align=7/ (cycles/byte):        2.81       2.88          3       3.06       3.12
+
+size=     128/align=0/ (cycles/byte):        2.41       2.44        2.5       2.53       2.59
+size=     128/align=1/ (cycles/byte):        2.81       2.88       2.94       2.97       3.12
+size=     128/align=2/ (cycles/byte):        2.78       2.81       2.84       2.91          3
+size=     128/align=3/ (cycles/byte):        2.69       2.75       2.78       2.84       2.91
+size=     128/align=4/ (cycles/byte):        2.62       2.69       2.75       2.81       2.84
+size=     128/align=5/ (cycles/byte):        2.69       2.75       2.78       2.84       2.88
+size=     128/align=6/ (cycles/byte):        2.62       2.69       2.72       2.78       2.78
+size=     128/align=7/ (cycles/byte):        2.59       2.62       2.69       2.72       2.81
+
+size=     256/align=0/ (cycles/byte):        2.36       2.41       2.44       2.48       2.53
+size=     256/align=1/ (cycles/byte):        2.58       2.64       2.69        2.7       2.83
+size=     256/align=2/ (cycles/byte):        2.56       2.58       2.62       2.66       2.72
+size=     256/align=3/ (cycles/byte):         2.5       2.56       2.58       2.61       2.66
+size=     256/align=4/ (cycles/byte):        2.55       2.58       2.59       2.61       2.66
+size=     256/align=5/ (cycles/byte):        2.52       2.53       2.58       2.61       2.67
+size=     256/align=6/ (cycles/byte):        2.45        2.5       2.53       2.56       2.59
+size=     256/align=7/ (cycles/byte):        2.47       2.53       2.56       2.59       2.67
+
+size=     512/align=0/ (cycles/byte):        2.38       2.41       2.43       2.46        2.5
+size=     512/align=1/ (cycles/byte):        2.48       2.49       2.53       2.55       2.61
+size=     512/align=2/ (cycles/byte):        2.48        2.5       2.52       2.53       2.55
+size=     512/align=3/ (cycles/byte):        2.46       2.48        2.5       2.51       2.52
+size=     512/align=4/ (cycles/byte):        2.43       2.47       2.48       2.52       2.54
+size=     512/align=5/ (cycles/byte):        2.46       2.47       2.49       2.51       2.54
+size=     512/align=6/ (cycles/byte):        2.44       2.45       2.48       2.48       2.53
+size=     512/align=7/ (cycles/byte):        2.41       2.45       2.47       2.48       2.52
+
+size=    1024/align=0/ (cycles/byte):         2.4       2.41       2.43       2.45       2.47
+size=    1024/align=1/ (cycles/byte):        2.45       2.47       2.49        2.5       2.52
+size=    1024/align=2/ (cycles/byte):        2.44       2.45       2.46       2.48        2.5
+size=    1024/align=3/ (cycles/byte):        2.43       2.44       2.46       2.47       2.48
+size=    1024/align=4/ (cycles/byte):        2.41       2.42       2.45       2.48        2.5
+size=    1024/align=5/ (cycles/byte):         2.4       2.43       2.44       2.45       2.48
+size=    1024/align=6/ (cycles/byte):        2.42       2.43       2.45       2.46       2.48
+size=    1024/align=7/ (cycles/byte):        2.41       2.41       2.43       2.45       2.47
+
+size=    2048/align=0/ (cycles/byte):        2.39        2.4       2.41       2.43       2.45
+size=    2048/align=1/ (cycles/byte):        2.42       2.43       2.44       2.45       2.48
+size=    2048/align=2/ (cycles/byte):        2.41       2.42       2.43       2.44       2.46
+size=    2048/align=3/ (cycles/byte):        2.41       2.42       2.43       2.44       2.45
+size=    2048/align=4/ (cycles/byte):         2.4       2.41       2.42       2.43       2.44
+size=    2048/align=5/ (cycles/byte):         2.4       2.41       2.43       2.43       2.45
+size=    2048/align=6/ (cycles/byte):        2.39        2.4       2.41       2.42       2.44
+size=    2048/align=7/ (cycles/byte):        2.39        2.4       2.42       2.43       2.44
+
+size=    4096/align=0/ (cycles/byte):        2.39       2.39       2.41       2.41       2.42
+size=    4096/align=1/ (cycles/byte):        2.39        2.4       2.41       2.42       2.43
+size=    4096/align=2/ (cycles/byte):        2.39        2.4       2.41       2.41       2.42
+size=    4096/align=3/ (cycles/byte):         2.4       2.41       2.42       2.42       2.43
+size=    4096/align=4/ (cycles/byte):        2.39        2.4       2.41       2.42       2.42
+size=    4096/align=5/ (cycles/byte):        2.39        2.4       2.41       2.41       2.42
+size=    4096/align=6/ (cycles/byte):         2.4       2.41       2.41       2.42       2.43
+size=    4096/align=7/ (cycles/byte):        2.39        2.4       2.41       2.42       2.43
+
+size=    8192/align=0/ (cycles/byte):        2.39        2.4        2.4       2.41       2.41
+size=    8192/align=1/ (cycles/byte):        2.39        2.4        2.4       2.41       2.41
+size=    8192/align=2/ (cycles/byte):        2.39        2.4        2.4       2.41       2.42
+size=    8192/align=3/ (cycles/byte):        2.39        2.4        2.4       2.41       2.42
+size=    8192/align=4/ (cycles/byte):        2.39        2.4        2.4       2.41       2.42
+size=    8192/align=5/ (cycles/byte):        2.39       2.39        2.4        2.4       2.41
+size=    8192/align=6/ (cycles/byte):        2.39       2.39        2.4        2.4       2.41
+size=    8192/align=7/ (cycles/byte):        2.38       2.39        2.4        2.4       2.41
+
+size=   16384/align=0/ (cycles/byte):        2.39       2.39        2.4        2.4       2.41
+size=   16384/align=1/ (cycles/byte):        2.39        2.4        2.4        2.4       2.41
+size=   16384/align=2/ (cycles/byte):        2.39        2.4        2.4        2.4       2.41
+size=   16384/align=3/ (cycles/byte):        2.39       2.39        2.4        2.4       2.41
+size=   16384/align=4/ (cycles/byte):        2.39        2.4        2.4        2.4        2.4
+size=   16384/align=5/ (cycles/byte):        2.39       2.39        2.4        2.4        2.4
+size=   16384/align=6/ (cycles/byte):        2.39       2.39        2.4        2.4       2.41
+size=   16384/align=7/ (cycles/byte):        2.39       2.39        2.4        2.4       2.41
+
+size=   32768/align=0/ (cycles/byte):        2.46       2.48       2.51       2.53       2.57
+size=   32768/align=1/ (cycles/byte):         2.4        2.4       2.41       2.49       2.52
+size=   32768/align=2/ (cycles/byte):        2.39        2.4        2.4        2.4        2.4
+size=   32768/align=3/ (cycles/byte):        2.39        2.4        2.4        2.4       2.41
+size=   32768/align=4/ (cycles/byte):        2.39        2.4        2.4       2.41       2.49
+size=   32768/align=5/ (cycles/byte):        2.43       2.48       2.51       2.53       2.58
+size=   32768/align=6/ (cycles/byte):        2.39        2.4        2.4        2.4       2.45
+size=   32768/align=7/ (cycles/byte):         2.4        2.4        2.4       2.44        2.5
+
+size=   65536/align=0/ (cycles/byte):        2.48       2.49        2.5       2.51       2.55
+size=   65536/align=1/ (cycles/byte):        2.39       2.39       2.39        2.4       2.49
+size=   65536/align=2/ (cycles/byte):        2.39       2.39       2.39       2.39        2.4
+size=   65536/align=3/ (cycles/byte):        2.39       2.39       2.39       2.39        2.4
+size=   65536/align=4/ (cycles/byte):        2.39       2.39       2.39       2.39        2.4
+size=   65536/align=5/ (cycles/byte):        2.39       2.39       2.39       2.39        2.4
+size=   65536/align=6/ (cycles/byte):        2.39       2.39       2.39       2.39       2.39
+size=   65536/align=7/ (cycles/byte):        2.39       2.39       2.39       2.39        2.4
+
+size=  131072/align=0/ (cycles/byte):        2.39       2.39       2.39       2.39       2.39
+size=  131072/align=1/ (cycles/byte):        2.39       2.39       2.39       2.39       2.39
+size=  131072/align=2/ (cycles/byte):        2.39       2.39       2.39       2.39       2.39
+size=  131072/align=3/ (cycles/byte):        2.39       2.39       2.39       2.39       2.39
+size=  131072/align=4/ (cycles/byte):        2.39       2.39       2.39       2.39       2.39
+size=  131072/align=5/ (cycles/byte):        2.39       2.39       2.39       2.39       2.39
+size=  131072/align=6/ (cycles/byte):        2.39       2.39       2.39       2.39       2.39
+size=  131072/align=7/ (cycles/byte):        2.39       2.39       2.39       2.39       2.39
+
+size=  262144/align=0/ (cycles/byte):        2.39       2.39       2.39       2.39        2.4
+size=  262144/align=1/ (cycles/byte):        2.39       2.39       2.39       2.39        2.4
+size=  262144/align=2/ (cycles/byte):        2.39       2.39       2.39       2.39       2.39
+size=  262144/align=3/ (cycles/byte):        2.39       2.39       2.39       2.39       2.39
+size=  262144/align=4/ (cycles/byte):        2.39       2.39       2.39       2.39       2.39
+size=  262144/align=5/ (cycles/byte):        2.39       2.39       2.39       2.39       2.39
+size=  262144/align=6/ (cycles/byte):        2.39       2.39       2.39       2.39       2.39
+size=  262144/align=7/ (cycles/byte):        2.39       2.39       2.39       2.39       2.39
+
+size=  524288/align=0/ (cycles/byte):        2.39       2.39       2.39       2.39        2.4
+size=  524288/align=1/ (cycles/byte):        2.39       2.39       2.39       2.39        2.4
+size=  524288/align=2/ (cycles/byte):        2.39       2.39       2.39       2.39        2.4
+size=  524288/align=3/ (cycles/byte):        2.39       2.39       2.39        2.4       2.45
+size=  524288/align=4/ (cycles/byte):        2.39       2.39        2.4       2.44       2.48
+size=  524288/align=5/ (cycles/byte):        2.39       2.39       2.39       2.39       2.41
+size=  524288/align=6/ (cycles/byte):         2.4       2.41       2.43       2.44       2.46
+size=  524288/align=7/ (cycles/byte):        2.39        2.4       2.41       2.43       2.45
+
+size= 1048576/align=0/ (cycles/byte):        2.39       2.39        2.4       2.41       2.45
+size= 1048576/align=1/ (cycles/byte):        2.39        2.4       2.41       2.43       2.45
+size= 1048576/align=2/ (cycles/byte):        2.39       2.39        2.4        2.4       2.42
+size= 1048576/align=3/ (cycles/byte):        2.39       2.39        2.4        2.4       2.41
+size= 1048576/align=4/ (cycles/byte):        2.39       2.41       2.42       2.44       2.47
+size= 1048576/align=5/ (cycles/byte):        2.39       2.39        2.4        2.4       2.42
+size= 1048576/align=6/ (cycles/byte):        2.39       2.39       2.39        2.4       2.41
+size= 1048576/align=7/ (cycles/byte):        2.39       2.39        2.4        2.4       2.42
+
+
+Testing crc32c_mark_hw
+test-crc32c: PASS: [actual=c1d04330, expected=c1d04330]
+test-crc32c: PASS: [actual=cfc4ae1d, expected=cfc4ae1d]
+test-crc32c: PASS: [actual=c99465aa, expected=c99465aa]
+test-crc32c: PASS: [actual=7e627e58, expected=7e627e58]
+test-crc32c: PASS: [actual=8a9136aa, expected=8a9136aa]
+test-crc32c: PASS: [actual=62a8ab43, expected=62a8ab43]
+test-crc32c: PASS: [actual=113fdb5c, expected=113fdb5c]
+test-crc32c: PASS: [actual=d9963a56, expected=d9963a56]
+test-crc32c: PASS: [actual=46dd794e, expected=46dd794e]
+test-crc32c: PASS: [actual=0e2c157f, expected=0e2c157f]
+test-crc32c: PASS: [actual=e980ebf6, expected=e980ebf6]
+test-crc32c: PASS: [actual=de74bded, expected=de74bded]
+test-crc32c: PASS: [actual=d579c862, expected=d579c862]
+test-crc32c: PASS: [actual=ba979ad0, expected=ba979ad0]
+test-crc32c: PASS: [actual=2b29d913, expected=2b29d913]
+test-crc32c: PASS: [actual=24c5d375, expected=24c5d375]
+size=      64/align=0/ (cycles/byte):       0.688      0.688      0.688      0.688      0.688
+size=      64/align=1/ (cycles/byte):       0.875      0.938      0.938          1       1.06
+size=      64/align=2/ (cycles/byte):       0.938      0.938          1          1       1.12
+size=      64/align=3/ (cycles/byte):       0.875      0.938      0.938          1       1.25
+size=      64/align=4/ (cycles/byte):        1.06       1.06       1.12       1.25       1.31
+size=      64/align=5/ (cycles/byte):       0.938      0.938          1       1.06       1.25
+size=      64/align=6/ (cycles/byte):       0.938       1.06       1.12       1.12       1.12
+size=      64/align=7/ (cycles/byte):       0.938          1       1.12       1.12       1.12
+
+size=     128/align=0/ (cycles/byte):       0.469      0.469      0.469      0.469      0.469
+size=     128/align=1/ (cycles/byte):       0.562      0.594      0.625      0.656      0.688
+size=     128/align=2/ (cycles/byte):       0.594      0.625      0.625      0.688      0.688
+size=     128/align=3/ (cycles/byte):       0.562      0.594      0.594      0.656      0.688
+size=     128/align=4/ (cycles/byte):       0.594      0.656      0.688      0.688      0.781
+size=     128/align=5/ (cycles/byte):       0.594      0.625      0.656      0.688      0.781
+size=     128/align=6/ (cycles/byte):       0.594      0.594      0.656      0.688      0.688
+size=     128/align=7/ (cycles/byte):       0.625      0.688      0.688      0.688      0.688
+
+size=     256/align=0/ (cycles/byte):       0.359      0.359      0.359      0.359      0.531
+size=     256/align=1/ (cycles/byte):       0.438      0.469      0.469      0.516      0.578
+size=     256/align=2/ (cycles/byte):       0.422      0.422      0.438      0.469      0.531
+size=     256/align=3/ (cycles/byte):       0.422      0.422      0.438      0.469      0.469
+size=     256/align=4/ (cycles/byte):       0.422      0.453      0.453      0.453        0.5
+size=     256/align=5/ (cycles/byte):       0.406      0.406      0.453      0.453      0.469
+size=     256/align=6/ (cycles/byte):       0.406      0.406      0.422      0.422      0.453
+size=     256/align=7/ (cycles/byte):       0.422      0.453      0.453      0.469      0.469
+
+size=     512/align=0/ (cycles/byte):       0.453      0.453      0.453      0.453      0.508
+size=     512/align=1/ (cycles/byte):       0.477      0.484      0.492      0.508      0.523
+size=     512/align=2/ (cycles/byte):       0.477      0.484      0.484      0.492      0.516
+size=     512/align=3/ (cycles/byte):       0.469      0.469      0.477      0.484      0.492
+size=     512/align=4/ (cycles/byte):       0.461      0.461      0.469      0.477      0.484
+size=     512/align=5/ (cycles/byte):       0.477        0.5        0.5      0.664       0.68
+size=     512/align=6/ (cycles/byte):       0.453      0.453      0.469      0.484      0.492
+size=     512/align=7/ (cycles/byte):       0.453      0.461      0.469      0.469      0.469
+
+size=    1024/align=0/ (cycles/byte):       0.191      0.195      0.199      0.219      0.457
+size=    1024/align=1/ (cycles/byte):       0.219      0.223      0.227      0.234      0.242
+size=    1024/align=2/ (cycles/byte):       0.207      0.219      0.227      0.234      0.262
+size=    1024/align=3/ (cycles/byte):       0.234      0.234      0.234      0.242       0.25
+size=    1024/align=4/ (cycles/byte):       0.215      0.219       0.23       0.23      0.316
+size=    1024/align=5/ (cycles/byte):       0.211      0.219      0.223      0.223      0.234
+size=    1024/align=6/ (cycles/byte):       0.219      0.223      0.223       0.25      0.332
+size=    1024/align=7/ (cycles/byte):       0.211      0.211      0.211      0.223       0.25
+
+size=    2048/align=0/ (cycles/byte):       0.191      0.195      0.201      0.207      0.277
+size=    2048/align=1/ (cycles/byte):       0.203      0.207      0.213      0.219       0.25
+size=    2048/align=2/ (cycles/byte):       0.205      0.209      0.213      0.246       0.26
+size=    2048/align=3/ (cycles/byte):       0.242      0.246      0.252      0.258      0.268
+size=    2048/align=4/ (cycles/byte):        0.24      0.242      0.246      0.248      0.256
+size=    2048/align=5/ (cycles/byte):       0.238       0.24      0.248      0.252      0.264
+size=    2048/align=6/ (cycles/byte):       0.232      0.236      0.238      0.242       0.25
+size=    2048/align=7/ (cycles/byte):       0.205      0.232      0.236      0.244      0.273
+
+size=    4096/align=0/ (cycles/byte):        0.17      0.173      0.175      0.179      0.183
+size=    4096/align=1/ (cycles/byte):       0.173      0.175      0.177      0.183       0.19
+size=    4096/align=2/ (cycles/byte):       0.173      0.174      0.177      0.181      0.187
+size=    4096/align=3/ (cycles/byte):       0.173      0.175      0.177      0.179      0.188
+size=    4096/align=4/ (cycles/byte):       0.171      0.172      0.175      0.176      0.182
+size=    4096/align=5/ (cycles/byte):       0.172      0.174      0.177      0.181      0.188
+size=    4096/align=6/ (cycles/byte):       0.173      0.174      0.177      0.179      0.184
+size=    4096/align=7/ (cycles/byte):       0.173      0.174      0.175       0.18      0.184
+
+size=    8192/align=0/ (cycles/byte):       0.181      0.183      0.185      0.188       0.19
+size=    8192/align=1/ (cycles/byte):       0.183      0.184      0.185      0.188       0.19
+size=    8192/align=2/ (cycles/byte):       0.184      0.186      0.188      0.189      0.191
+size=    8192/align=3/ (cycles/byte):       0.184      0.186      0.188      0.189      0.194
+size=    8192/align=4/ (cycles/byte):       0.181      0.183      0.185      0.188      0.192
+size=    8192/align=5/ (cycles/byte):        0.18      0.182      0.183      0.185      0.188
+size=    8192/align=6/ (cycles/byte):       0.181      0.182      0.183      0.186      0.187
+size=    8192/align=7/ (cycles/byte):       0.181      0.182      0.183      0.185      0.187
+
+size=   16384/align=0/ (cycles/byte):       0.165      0.166      0.168       0.17      0.172
+size=   16384/align=1/ (cycles/byte):       0.167      0.168      0.171      0.173      0.174
+size=   16384/align=2/ (cycles/byte):       0.167      0.168       0.17      0.173      0.174
+size=   16384/align=3/ (cycles/byte):       0.167      0.167       0.17      0.173      0.174
+size=   16384/align=4/ (cycles/byte):       0.167      0.169      0.171      0.173      0.176
+size=   16384/align=5/ (cycles/byte):       0.166      0.167      0.168      0.171      0.173
+size=   16384/align=6/ (cycles/byte):       0.167      0.167      0.169      0.171      0.173
+size=   16384/align=7/ (cycles/byte):       0.166      0.167      0.169      0.172      0.174
+
+size=   32768/align=0/ (cycles/byte):       0.148      0.148      0.149      0.153      0.156
+size=   32768/align=1/ (cycles/byte):       0.149       0.15       0.15      0.151      0.157
+size=   32768/align=2/ (cycles/byte):       0.148      0.149      0.149      0.149       0.15
+size=   32768/align=3/ (cycles/byte):       0.149      0.149      0.149      0.149       0.15
+size=   32768/align=4/ (cycles/byte):       0.149      0.149      0.149       0.15       0.15
+size=   32768/align=5/ (cycles/byte):       0.149      0.149      0.149      0.149       0.15
+size=   32768/align=6/ (cycles/byte):       0.148      0.149      0.149       0.15       0.15
+size=   32768/align=7/ (cycles/byte):       0.148      0.148      0.149       0.15      0.154
+
+size=   65536/align=0/ (cycles/byte):       0.141      0.142      0.142      0.143      0.144
+size=   65536/align=1/ (cycles/byte):       0.143      0.143      0.145      0.145      0.148
+size=   65536/align=2/ (cycles/byte):       0.143      0.143      0.144      0.145      0.147
+size=   65536/align=3/ (cycles/byte):       0.143      0.143      0.144      0.145      0.146
+size=   65536/align=4/ (cycles/byte):       0.143      0.143      0.144      0.144      0.145
+size=   65536/align=5/ (cycles/byte):       0.143      0.143      0.144      0.144      0.231
+size=   65536/align=6/ (cycles/byte):       0.147      0.151      0.187      0.213      0.274
+size=   65536/align=7/ (cycles/byte):       0.142      0.142      0.143      0.143      0.146
+
+size=  131072/align=0/ (cycles/byte):       0.134      0.135      0.138       0.14      0.161
+size=  131072/align=1/ (cycles/byte):       0.135      0.135      0.135      0.136      0.138
+size=  131072/align=2/ (cycles/byte):       0.135      0.135      0.136      0.137      0.144
+size=  131072/align=3/ (cycles/byte):       0.135      0.135      0.135      0.136      0.138
+size=  131072/align=4/ (cycles/byte):       0.135      0.135      0.135      0.136      0.137
+size=  131072/align=5/ (cycles/byte):       0.136      0.137      0.147      0.194      0.257
+size=  131072/align=6/ (cycles/byte):       0.135      0.135      0.137      0.139      0.222
+size=  131072/align=7/ (cycles/byte):       0.135      0.135      0.135      0.136      0.137
+
+size=  262144/align=0/ (cycles/byte):       0.139      0.139       0.14      0.143      0.162
+size=  262144/align=1/ (cycles/byte):       0.139       0.14      0.141      0.142      0.165
+size=  262144/align=2/ (cycles/byte):       0.141      0.182       0.23      0.267      0.328
+size=  262144/align=3/ (cycles/byte):       0.143       0.15      0.156      0.184      0.258
+size=  262144/align=4/ (cycles/byte):       0.139      0.145       0.15      0.153      0.155
+size=  262144/align=5/ (cycles/byte):       0.147      0.158      0.231      0.288      0.309
+size=  262144/align=6/ (cycles/byte):       0.148       0.15      0.156      0.161      0.202
+size=  262144/align=7/ (cycles/byte):        0.14      0.141      0.146       0.19      0.263
+
+size=  524288/align=0/ (cycles/byte):       0.166       0.18      0.204      0.251      0.277
+size=  524288/align=1/ (cycles/byte):       0.165      0.172      0.177      0.208      0.262
+size=  524288/align=2/ (cycles/byte):       0.144      0.149       0.16      0.176      0.209
+size=  524288/align=3/ (cycles/byte):       0.145      0.159      0.166      0.183      0.213
+size=  524288/align=4/ (cycles/byte):       0.157      0.172      0.176      0.182      0.227
+size=  524288/align=5/ (cycles/byte):       0.149      0.164      0.188      0.207      0.261
+size=  524288/align=6/ (cycles/byte):       0.144      0.148       0.16      0.165       0.19
+size=  524288/align=7/ (cycles/byte):       0.147      0.157      0.174      0.217       0.25
+
+size= 1048576/align=0/ (cycles/byte):       0.205      0.241      0.259      0.275       0.31
+size= 1048576/align=1/ (cycles/byte):       0.241      0.265       0.28       0.29      0.339
+size= 1048576/align=2/ (cycles/byte):       0.202      0.241      0.271      0.289      0.306
+size= 1048576/align=3/ (cycles/byte):       0.191      0.244      0.272      0.293      0.315
+size= 1048576/align=4/ (cycles/byte):       0.159      0.187      0.239      0.261      0.281
+size= 1048576/align=5/ (cycles/byte):       0.167      0.213      0.255      0.267      0.299
+size= 1048576/align=6/ (cycles/byte):       0.211      0.235      0.273      0.282      0.294
+size= 1048576/align=7/ (cycles/byte):       0.151      0.183      0.222      0.268      0.312
+
+
+Testing adler32
+size=      64/align=0/ (cycles/byte):        2.12       2.25       2.31       2.38       2.38
+size=      64/align=1/ (cycles/byte):        2.12       2.19       2.31       2.31       2.31
+size=      64/align=2/ (cycles/byte):        2.06       2.06       2.19       2.31       2.31
+size=      64/align=3/ (cycles/byte):        2.12       2.25       2.31       2.31       2.38
+size=      64/align=4/ (cycles/byte):        2.12       2.12       2.19       2.31       2.38
+size=      64/align=5/ (cycles/byte):        2.12       2.12       2.19       2.19       2.31
+size=      64/align=6/ (cycles/byte):        2.19       2.25       2.25       2.31       2.38
+size=      64/align=7/ (cycles/byte):        2.12       2.19       2.31       2.31       2.38
+
+size=     128/align=0/ (cycles/byte):        1.62       1.66       1.69       1.69       1.75
+size=     128/align=1/ (cycles/byte):        1.66       1.69       1.69       1.72       1.72
+size=     128/align=2/ (cycles/byte):        1.69       1.69       1.72       1.72       1.72
+size=     128/align=3/ (cycles/byte):        1.69       1.69       1.72       1.72       1.75
+size=     128/align=4/ (cycles/byte):        1.69       1.72       1.72       1.72       1.75
+size=     128/align=5/ (cycles/byte):        1.69       1.72       1.72       1.75       1.81
+size=     128/align=6/ (cycles/byte):        1.69       1.69       1.72       1.75       1.75
+size=     128/align=7/ (cycles/byte):        1.69       1.72       1.75       1.78       1.81
+
+size=     256/align=0/ (cycles/byte):        1.45       1.48       1.48        1.5       1.53
+size=     256/align=1/ (cycles/byte):        1.47       1.48       1.48        1.5       1.53
+size=     256/align=2/ (cycles/byte):        1.48       1.48        1.5        1.5       1.53
+size=     256/align=3/ (cycles/byte):         1.5        1.5       1.53       1.55       1.56
+size=     256/align=4/ (cycles/byte):         1.5       1.52       1.53       1.55       1.56
+size=     256/align=5/ (cycles/byte):        1.48        1.5       1.53       1.53       1.55
+size=     256/align=6/ (cycles/byte):        1.47       1.48       1.52       1.53       1.56
+size=     256/align=7/ (cycles/byte):        1.52       1.53       1.55       1.56       1.56
+
+size=     512/align=0/ (cycles/byte):        1.37       1.38       1.38        1.4       1.41
+size=     512/align=1/ (cycles/byte):        1.38       1.38       1.39       1.41       1.41
+size=     512/align=2/ (cycles/byte):         1.4        1.4       1.41       1.42       1.42
+size=     512/align=3/ (cycles/byte):         1.4       1.41       1.41       1.43       1.64
+size=     512/align=4/ (cycles/byte):        1.39        1.4       1.41       1.44       1.45
+size=     512/align=5/ (cycles/byte):        1.41       1.41       1.41       1.42       1.44
+size=     512/align=6/ (cycles/byte):         1.4       1.41       1.41       1.41       1.43
+size=     512/align=7/ (cycles/byte):        1.38       1.41       1.42       1.43       1.63
+
+size=    1024/align=0/ (cycles/byte):        1.33       1.33       1.34       1.34       1.35
+size=    1024/align=1/ (cycles/byte):        1.34       1.35       1.36       1.36       1.46
+size=    1024/align=2/ (cycles/byte):        1.34       1.34       1.35       1.35       1.45
+size=    1024/align=3/ (cycles/byte):        1.34       1.35       1.35       1.37       1.46
+size=    1024/align=4/ (cycles/byte):        1.34       1.35       1.35       1.36       1.37
+size=    1024/align=5/ (cycles/byte):        1.34       1.35       1.35       1.36       1.36
+size=    1024/align=6/ (cycles/byte):        1.35       1.36       1.36       1.37       1.39
+size=    1024/align=7/ (cycles/byte):        1.36       1.36       1.37       1.37       1.47
+
+size=    2048/align=0/ (cycles/byte):        1.33       1.34       1.34       1.34       1.36
+size=    2048/align=1/ (cycles/byte):        1.33       1.34       1.35       1.35       1.35
+size=    2048/align=2/ (cycles/byte):        1.34       1.34       1.34       1.35       1.35
+size=    2048/align=3/ (cycles/byte):        1.34       1.35       1.35       1.35       1.36
+size=    2048/align=4/ (cycles/byte):        1.34       1.34       1.35       1.35       1.36
+size=    2048/align=5/ (cycles/byte):        1.34       1.35       1.35       1.35       1.36
+size=    2048/align=6/ (cycles/byte):        1.34       1.34       1.35       1.35       1.36
+size=    2048/align=7/ (cycles/byte):        1.35       1.35       1.35       1.36       1.36
+
+size=    4096/align=0/ (cycles/byte):        1.31       1.32       1.32       1.32       1.33
+size=    4096/align=1/ (cycles/byte):        1.31       1.31       1.32       1.32       1.32
+size=    4096/align=2/ (cycles/byte):        1.32       1.32       1.32       1.32       1.33
+size=    4096/align=3/ (cycles/byte):        1.32       1.32       1.32       1.33       1.33
+size=    4096/align=4/ (cycles/byte):        1.32       1.32       1.32       1.33       1.33
+size=    4096/align=5/ (cycles/byte):        1.32       1.32       1.32       1.32       1.33
+size=    4096/align=6/ (cycles/byte):        1.32       1.32       1.33       1.33       1.34
+size=    4096/align=7/ (cycles/byte):        1.32       1.32       1.32       1.33       1.33
+
+size=    8192/align=0/ (cycles/byte):        1.31       1.31       1.31       1.31       1.32
+size=    8192/align=1/ (cycles/byte):        1.31       1.31       1.31       1.31       1.32
+size=    8192/align=2/ (cycles/byte):        1.31       1.31       1.31       1.31       1.31
+size=    8192/align=3/ (cycles/byte):        1.31       1.31       1.31       1.31       1.32
+size=    8192/align=4/ (cycles/byte):        1.31       1.31       1.31       1.32       1.32
+size=    8192/align=5/ (cycles/byte):        1.31       1.31       1.31       1.31       1.32
+size=    8192/align=6/ (cycles/byte):        1.31       1.31       1.31       1.32       1.32
+size=    8192/align=7/ (cycles/byte):        1.31       1.31       1.32       1.32       1.32
+
+size=   16384/align=0/ (cycles/byte):         1.3       1.31       1.31       1.31       1.31
+size=   16384/align=1/ (cycles/byte):        1.31       1.31       1.31       1.31       1.31
+size=   16384/align=2/ (cycles/byte):         1.3       1.31       1.31       1.31       1.31
+size=   16384/align=3/ (cycles/byte):         1.3       1.31       1.31       1.31       1.31
+size=   16384/align=4/ (cycles/byte):        1.31       1.31       1.31       1.31       1.31
+size=   16384/align=5/ (cycles/byte):         1.3       1.31       1.31       1.31       1.31
+size=   16384/align=6/ (cycles/byte):        1.31       1.31       1.31       1.31       1.32
+size=   16384/align=7/ (cycles/byte):        1.31       1.31       1.31       1.31       1.32
+
+size=   32768/align=0/ (cycles/byte):         1.3        1.3        1.3       1.31       1.31
+size=   32768/align=1/ (cycles/byte):         1.3        1.3        1.3        1.3        1.3
+size=   32768/align=2/ (cycles/byte):         1.3        1.3        1.3        1.3       1.31
+size=   32768/align=3/ (cycles/byte):         1.3        1.3        1.3        1.3       1.31
+size=   32768/align=4/ (cycles/byte):         1.3        1.3        1.3       1.31       1.37
+size=   32768/align=5/ (cycles/byte):         1.3        1.3       1.31       1.36       1.39
+size=   32768/align=6/ (cycles/byte):        1.31       1.31       1.31       1.31       1.38
+size=   32768/align=7/ (cycles/byte):        1.31       1.31       1.31       1.31        1.4
+
+size=   65536/align=0/ (cycles/byte):         1.3        1.3        1.3        1.3       1.35
+size=   65536/align=1/ (cycles/byte):         1.3        1.3        1.3        1.3        1.3
+size=   65536/align=2/ (cycles/byte):         1.3        1.3        1.3        1.3        1.3
+size=   65536/align=3/ (cycles/byte):         1.3        1.3        1.3        1.3        1.3
+size=   65536/align=4/ (cycles/byte):         1.3        1.3        1.3        1.3        1.3
+size=   65536/align=5/ (cycles/byte):         1.3        1.3        1.3        1.3       1.31
+size=   65536/align=6/ (cycles/byte):         1.3        1.3       1.31       1.31       1.31
+size=   65536/align=7/ (cycles/byte):         1.3       1.31       1.31       1.31       1.31
+
+size=  131072/align=0/ (cycles/byte):         1.3        1.3        1.3        1.3        1.3
+size=  131072/align=1/ (cycles/byte):         1.3        1.3        1.3        1.3        1.3
+size=  131072/align=2/ (cycles/byte):         1.3        1.3        1.3        1.3        1.3
+size=  131072/align=3/ (cycles/byte):         1.3        1.3        1.3        1.3        1.3
+size=  131072/align=4/ (cycles/byte):         1.3        1.3        1.3        1.3        1.3
+size=  131072/align=5/ (cycles/byte):         1.3        1.3        1.3       1.33       1.37
+size=  131072/align=6/ (cycles/byte):         1.3        1.3       1.31       1.31       1.35
+size=  131072/align=7/ (cycles/byte):         1.3        1.3        1.3        1.3       1.31
+
+size=  262144/align=0/ (cycles/byte):         1.3        1.3        1.3        1.3       1.31
+size=  262144/align=1/ (cycles/byte):         1.3        1.3        1.3        1.3        1.3
+size=  262144/align=2/ (cycles/byte):         1.3        1.3        1.3        1.3        1.3
+size=  262144/align=3/ (cycles/byte):         1.3        1.3        1.3        1.3        1.3
+size=  262144/align=4/ (cycles/byte):         1.3        1.3        1.3        1.3        1.3
+size=  262144/align=5/ (cycles/byte):         1.3        1.3        1.3        1.3       1.34
+size=  262144/align=6/ (cycles/byte):         1.3       1.31       1.31       1.31       1.32
+size=  262144/align=7/ (cycles/byte):         1.3       1.31       1.31       1.31       1.34
+
+size=  524288/align=0/ (cycles/byte):         1.3        1.3        1.3       1.32       1.36
+size=  524288/align=1/ (cycles/byte):         1.3        1.3        1.3        1.3        1.3
+size=  524288/align=2/ (cycles/byte):         1.3        1.3        1.3        1.3       1.31
+size=  524288/align=3/ (cycles/byte):         1.3        1.3        1.3       1.32       1.36
+size=  524288/align=4/ (cycles/byte):         1.3        1.3       1.31       1.32       1.35
+size=  524288/align=5/ (cycles/byte):         1.3        1.3        1.3        1.3       1.33
+size=  524288/align=6/ (cycles/byte):        1.31       1.31       1.31       1.31       1.32
+size=  524288/align=7/ (cycles/byte):        1.31       1.31       1.31       1.32       1.34
+
+size= 1048576/align=0/ (cycles/byte):        1.31       1.31       1.31       1.32       1.33
+size= 1048576/align=1/ (cycles/byte):        1.31       1.32       1.34       1.35       1.36
+size= 1048576/align=2/ (cycles/byte):        1.34       1.35       1.36       1.37       1.38
+size= 1048576/align=3/ (cycles/byte):        1.33       1.34       1.34       1.34       1.35
+size= 1048576/align=4/ (cycles/byte):        1.32       1.33       1.35       1.35       1.37
+size= 1048576/align=5/ (cycles/byte):        1.32       1.33       1.34       1.35       1.35
+size= 1048576/align=6/ (cycles/byte):        1.32       1.33       1.34       1.35       1.37
+size= 1048576/align=7/ (cycles/byte):        1.32       1.32       1.33       1.33       1.35
+
+
+Testing fletcher32
+size=      64/align=0/ (cycles/byte):        2.69       2.69       2.81       2.81       2.88
+size=      64/align=1/ (cycles/byte):        2.69       2.69       2.69       2.81       2.88
+size=      64/align=2/ (cycles/byte):        2.69       2.69       2.81       2.88       2.88
+size=      64/align=3/ (cycles/byte):        2.62       2.62       2.69       2.69       2.69
+size=      64/align=4/ (cycles/byte):        2.69       2.69       2.81       2.88       2.88
+size=      64/align=5/ (cycles/byte):        2.69       2.81       2.81       2.88       2.88
+size=      64/align=6/ (cycles/byte):        2.69       2.69       2.81       2.81       2.88
+size=      64/align=7/ (cycles/byte):        2.62       2.69       2.69       2.69       2.81
+
+size=     128/align=0/ (cycles/byte):        2.34       2.34       2.34       2.44       2.44
+size=     128/align=1/ (cycles/byte):        2.34       2.38       2.44       2.44       2.44
+size=     128/align=2/ (cycles/byte):        2.34       2.34       2.38       2.44       2.44
+size=     128/align=3/ (cycles/byte):        2.34       2.34       2.34       2.38       2.44
+size=     128/align=4/ (cycles/byte):        2.34       2.38       2.44       2.44       2.44
+size=     128/align=5/ (cycles/byte):        2.34       2.34       2.34       2.38       2.44
+size=     128/align=6/ (cycles/byte):        2.34       2.44       2.44       2.44       2.44
+size=     128/align=7/ (cycles/byte):        2.34       2.38       2.44       2.44       2.44
+
+size=     256/align=0/ (cycles/byte):        2.17       2.17       2.19       2.22       2.23
+size=     256/align=1/ (cycles/byte):        2.17        2.2        2.2       2.22       2.22
+size=     256/align=2/ (cycles/byte):        2.17        2.2       2.22       2.22       2.22
+size=     256/align=3/ (cycles/byte):        2.17       2.17       2.17       2.17       2.17
+size=     256/align=4/ (cycles/byte):        2.17       2.17       2.19       2.19       2.19
+size=     256/align=5/ (cycles/byte):        2.17       2.17       2.17       2.22       2.22
+size=     256/align=6/ (cycles/byte):        2.17       2.17       2.19        2.2       2.22
+size=     256/align=7/ (cycles/byte):        2.17        2.2        2.2       2.22       2.22
+
+size=     512/align=0/ (cycles/byte):        2.14       2.14       2.15       2.24       2.32
+size=     512/align=1/ (cycles/byte):        2.12       2.12       2.14       2.32       2.33
+size=     512/align=2/ (cycles/byte):        2.12       2.12       2.13       2.15       2.33
+size=     512/align=3/ (cycles/byte):        2.12       2.12       2.12       2.12       2.12
+size=     512/align=4/ (cycles/byte):        2.14       2.14       2.15       2.15       2.32
+size=     512/align=5/ (cycles/byte):        2.12       2.15       2.32       2.32       2.33
+size=     512/align=6/ (cycles/byte):        2.14       2.14       2.14       2.15       2.15
+size=     512/align=7/ (cycles/byte):        2.12       2.12       2.15       2.15       2.32
+
+size=    1024/align=0/ (cycles/byte):        2.08       2.08       2.08       2.08       2.08
+size=    1024/align=1/ (cycles/byte):        2.08       2.08       2.09       2.09       2.09
+size=    1024/align=2/ (cycles/byte):        2.09       2.09       2.09       2.09       2.12
+size=    1024/align=3/ (cycles/byte):        2.08       2.09       2.09       2.09       2.18
+size=    1024/align=4/ (cycles/byte):        2.09       2.09       2.09       2.09       2.09
+size=    1024/align=5/ (cycles/byte):        2.09       2.09       2.09       2.09       2.09
+size=    1024/align=6/ (cycles/byte):        2.08       2.08       2.08       2.08       2.09
+size=    1024/align=7/ (cycles/byte):        2.08       2.08       2.09       2.19        2.3
+
+size=    2048/align=0/ (cycles/byte):         2.1       2.14       2.14       2.16       2.21
+size=    2048/align=1/ (cycles/byte):        2.08       2.08       2.08       2.08       2.22
+size=    2048/align=2/ (cycles/byte):        2.08       2.08       2.08       2.08       2.13
+size=    2048/align=3/ (cycles/byte):        2.08       2.08       2.08       2.08       2.08
+size=    2048/align=4/ (cycles/byte):        2.08       2.08       2.08       2.08       2.08
+size=    2048/align=5/ (cycles/byte):        2.08       2.08       2.08       2.08       2.13
+size=    2048/align=6/ (cycles/byte):        2.08       2.08       2.08       2.08       2.08
+size=    2048/align=7/ (cycles/byte):        2.08       2.08       2.08       2.08       2.08
+
+size=    4096/align=0/ (cycles/byte):        2.07       2.07       2.07       2.07       2.07
+size=    4096/align=1/ (cycles/byte):        2.07       2.07       2.08        2.1       2.14
+size=    4096/align=2/ (cycles/byte):         2.1        2.1       2.13       2.17       2.31
+size=    4096/align=3/ (cycles/byte):        2.07       2.07       2.07        2.1       2.14
+size=    4096/align=4/ (cycles/byte):        2.07       2.07       2.07       2.07       2.07
+size=    4096/align=5/ (cycles/byte):        2.07       2.07       2.07       2.07       2.07
+size=    4096/align=6/ (cycles/byte):        2.07       2.07       2.07       2.07       2.07
+size=    4096/align=7/ (cycles/byte):        2.07       2.07       2.07       2.07       2.07
+
+size=    8192/align=0/ (cycles/byte):        2.09       2.12       2.14       2.17       2.23
+size=    8192/align=1/ (cycles/byte):        2.06       2.06       2.06       2.06       2.09
+size=    8192/align=2/ (cycles/byte):        2.06       2.06       2.06       2.06       2.07
+size=    8192/align=3/ (cycles/byte):        2.06       2.06       2.08       2.14       2.23
+size=    8192/align=4/ (cycles/byte):        2.06       2.06       2.07       2.11       2.15
+size=    8192/align=5/ (cycles/byte):        2.06       2.06       2.06       2.06       2.07
+size=    8192/align=6/ (cycles/byte):        2.06       2.06       2.06       2.06       2.07
+size=    8192/align=7/ (cycles/byte):        2.06       2.06       2.06       2.06       2.07
+
+size=   16384/align=0/ (cycles/byte):        2.06       2.06       2.06       2.06       2.12
+size=   16384/align=1/ (cycles/byte):        2.06       2.06       2.06       2.07       2.12
+size=   16384/align=2/ (cycles/byte):        2.06       2.06       2.06       2.13       2.18
+size=   16384/align=3/ (cycles/byte):        2.06       2.06       2.06       2.06       2.07
+size=   16384/align=4/ (cycles/byte):        2.06       2.06       2.06       2.06       2.06
+size=   16384/align=5/ (cycles/byte):        2.06       2.06       2.06       2.06       2.06
+size=   16384/align=6/ (cycles/byte):        2.06       2.06       2.06       2.06       2.07
+size=   16384/align=7/ (cycles/byte):        2.06       2.06       2.06       2.06       2.06
+
+size=   32768/align=0/ (cycles/byte):        2.06       2.06       2.06       2.06       2.06
+size=   32768/align=1/ (cycles/byte):        2.06       2.06       2.06       2.06       2.06
+size=   32768/align=2/ (cycles/byte):        2.06       2.06       2.06       2.06       2.06
+size=   32768/align=3/ (cycles/byte):        2.06       2.06       2.06       2.06       2.06
+size=   32768/align=4/ (cycles/byte):        2.06       2.06       2.06       2.06       2.06
+size=   32768/align=5/ (cycles/byte):        2.06       2.06       2.06       2.06       2.06
+size=   32768/align=6/ (cycles/byte):        2.06       2.06       2.06       2.06       2.06
+size=   32768/align=7/ (cycles/byte):        2.06       2.06       2.06       2.06       2.06
+
+size=   65536/align=0/ (cycles/byte):        2.06       2.06       2.06       2.06       2.06
+size=   65536/align=1/ (cycles/byte):        2.06       2.06       2.06       2.06       2.06
+size=   65536/align=2/ (cycles/byte):        2.06       2.06       2.06       2.06       2.06
+size=   65536/align=3/ (cycles/byte):        2.06       2.06       2.06       2.06       2.06
+size=   65536/align=4/ (cycles/byte):        2.06       2.06       2.06       2.06       2.06
+size=   65536/align=5/ (cycles/byte):        2.06       2.06       2.06       2.06       2.06
+size=   65536/align=6/ (cycles/byte):        2.06       2.06       2.06       2.06       2.06
+size=   65536/align=7/ (cycles/byte):        2.06       2.06       2.06       2.06       2.06
+
+size=  131072/align=0/ (cycles/byte):        2.06       2.06       2.06       2.06       2.06
+size=  131072/align=1/ (cycles/byte):        2.06       2.06       2.06       2.06       2.06
+size=  131072/align=2/ (cycles/byte):        2.06       2.06       2.06       2.06       2.06
+size=  131072/align=3/ (cycles/byte):        2.06       2.06       2.06       2.06       2.06
+size=  131072/align=4/ (cycles/byte):        2.06       2.06       2.06       2.06       2.06
+size=  131072/align=5/ (cycles/byte):        2.06       2.06       2.06       2.06       2.06
+size=  131072/align=6/ (cycles/byte):        2.06       2.06       2.06       2.06       2.06
+size=  131072/align=7/ (cycles/byte):        2.06       2.06       2.06       2.06       2.06
+
+size=  262144/align=0/ (cycles/byte):        2.06       2.06       2.06       2.06        2.1
+size=  262144/align=1/ (cycles/byte):        2.06       2.06       2.06       2.06       2.06
+size=  262144/align=2/ (cycles/byte):        2.06       2.06       2.06       2.06       2.06
+size=  262144/align=3/ (cycles/byte):        2.06       2.06       2.06       2.06       2.07
+size=  262144/align=4/ (cycles/byte):        2.06       2.06       2.06       2.06       2.06
+size=  262144/align=5/ (cycles/byte):        2.06       2.06       2.06       2.06       2.07
+size=  262144/align=6/ (cycles/byte):        2.06       2.06       2.06       2.06       2.06
+size=  262144/align=7/ (cycles/byte):        2.06       2.06       2.06       2.06       2.07
+
+size=  524288/align=0/ (cycles/byte):        2.06       2.06       2.06       2.07       2.07
+size=  524288/align=1/ (cycles/byte):        2.06       2.06       2.06       2.06       2.08
+size=  524288/align=2/ (cycles/byte):        2.06       2.06       2.06       2.06       2.07
+size=  524288/align=3/ (cycles/byte):        2.06       2.06       2.07       2.08       2.11
+size=  524288/align=4/ (cycles/byte):        2.06       2.06       2.06       2.07       2.08
+size=  524288/align=5/ (cycles/byte):        2.06       2.06       2.07       2.07       2.08
+size=  524288/align=6/ (cycles/byte):        2.06       2.06       2.07       2.09        2.1
+size=  524288/align=7/ (cycles/byte):        2.06       2.06       2.06       2.07       2.08
+
+size= 1048576/align=0/ (cycles/byte):        2.07       2.07       2.08       2.08       2.09
+size= 1048576/align=1/ (cycles/byte):        2.07       2.07       2.08       2.08       2.08
+size= 1048576/align=2/ (cycles/byte):        2.07       2.07       2.08       2.08       2.09
+size= 1048576/align=3/ (cycles/byte):        2.07       2.08       2.09        2.1       2.12
+size= 1048576/align=4/ (cycles/byte):        2.06       2.06       2.07       2.08       2.09
+size= 1048576/align=5/ (cycles/byte):        2.06       2.06       2.07       2.08        2.1
+size= 1048576/align=6/ (cycles/byte):        2.06       2.07       2.08       2.09       2.09
+size= 1048576/align=7/ (cycles/byte):        2.06       2.06       2.07       2.08       2.09
+
+
+Testing fletcher32_4
+size=      64/align=0/ (cycles/byte):        1.62       1.75       1.81       1.81       1.94
+size=      64/align=1/ (cycles/byte):        1.56       1.75       1.75       1.75       1.88
+size=      64/align=2/ (cycles/byte):        1.69       1.75       1.75       1.75       1.81
+size=      64/align=3/ (cycles/byte):        1.62       1.69       1.75       1.81       1.81
+size=      64/align=4/ (cycles/byte):        1.62       1.75       1.75       1.75       1.81
+size=      64/align=5/ (cycles/byte):        1.69       1.75       1.75       1.81       1.94
+size=      64/align=6/ (cycles/byte):        1.69       1.75       1.75       1.75       1.81
+size=      64/align=7/ (cycles/byte):        1.75       1.75       1.75       1.75       1.81
+
+size=     128/align=0/ (cycles/byte):        1.53       1.53       1.53       1.56       1.56
+size=     128/align=1/ (cycles/byte):         1.5       1.53       1.53       1.53       1.56
+size=     128/align=2/ (cycles/byte):         1.5       1.53       1.53       1.56       1.56
+size=     128/align=3/ (cycles/byte):         1.5        1.5       1.53       1.53       1.56
+size=     128/align=4/ (cycles/byte):         1.5       1.53       1.53       1.56       1.56
+size=     128/align=5/ (cycles/byte):         1.5       1.53       1.53       1.53       1.56
+size=     128/align=6/ (cycles/byte):        1.53       1.53       1.53       1.56       1.56
+size=     128/align=7/ (cycles/byte):        1.53       1.53       1.56       1.56       1.56
+
+size=     256/align=0/ (cycles/byte):        1.31       1.34       1.36       1.38       1.38
+size=     256/align=1/ (cycles/byte):        1.34       1.34       1.36       1.36       1.38
+size=     256/align=2/ (cycles/byte):        1.34       1.34       1.36       1.36       1.38
+size=     256/align=3/ (cycles/byte):        1.31       1.34       1.36       1.36       1.38
+size=     256/align=4/ (cycles/byte):        1.34       1.36       1.36       1.38       1.38
+size=     256/align=5/ (cycles/byte):        1.34       1.36       1.36       1.36       1.38
+size=     256/align=6/ (cycles/byte):        1.34       1.36       1.36       1.36       1.38
+size=     256/align=7/ (cycles/byte):        1.34       1.36       1.36       1.38       1.38
+
+size=     512/align=0/ (cycles/byte):        1.27       1.28        1.3        1.3        1.3
+size=     512/align=1/ (cycles/byte):        1.26       1.27       1.27       1.28        1.3
+size=     512/align=2/ (cycles/byte):        1.27       1.27       1.28       1.29        1.3
+size=     512/align=3/ (cycles/byte):        1.27       1.28        1.3        1.3       1.31
+size=     512/align=4/ (cycles/byte):        1.27       1.29       1.29        1.3        1.3
+size=     512/align=5/ (cycles/byte):        1.27       1.28       1.29        1.3        1.3
+size=     512/align=6/ (cycles/byte):        1.27       1.28       1.29        1.3        1.3
+size=     512/align=7/ (cycles/byte):        1.27       1.29        1.3        1.3        1.3
+
+size=    1024/align=0/ (cycles/byte):        1.24       1.24       1.24       1.25       1.25
+size=    1024/align=1/ (cycles/byte):        1.23       1.23       1.24       1.25       1.25
+size=    1024/align=2/ (cycles/byte):        1.24       1.25       1.25       1.25       1.25
+size=    1024/align=3/ (cycles/byte):        1.23       1.24       1.24       1.25       1.25
+size=    1024/align=4/ (cycles/byte):        1.23       1.23       1.24       1.24       1.25
+size=    1024/align=5/ (cycles/byte):        1.23       1.24       1.24       1.25       1.25
+size=    1024/align=6/ (cycles/byte):        1.23       1.23       1.24       1.25       1.25
+size=    1024/align=7/ (cycles/byte):        1.24       1.24       1.25       1.25       1.25
+
+size=    2048/align=0/ (cycles/byte):        1.22       1.23       1.23       1.23       1.24
+size=    2048/align=1/ (cycles/byte):        1.22       1.23       1.23       1.23       1.23
+size=    2048/align=2/ (cycles/byte):        1.22       1.23       1.23       1.23       1.24
+size=    2048/align=3/ (cycles/byte):        1.22       1.22       1.23       1.23       1.24
+size=    2048/align=4/ (cycles/byte):        1.22       1.23       1.23       1.23       1.23
+size=    2048/align=5/ (cycles/byte):        1.22       1.22       1.23       1.23       1.24
+size=    2048/align=6/ (cycles/byte):        1.22       1.22       1.23       1.23       1.24
+size=    2048/align=7/ (cycles/byte):        1.22       1.22       1.23       1.23       1.24
+
+size=    4096/align=0/ (cycles/byte):        1.21       1.21       1.21       1.22       1.22
+size=    4096/align=1/ (cycles/byte):        1.21       1.21       1.21       1.22       1.22
+size=    4096/align=2/ (cycles/byte):        1.21       1.21       1.21       1.22       1.22
+size=    4096/align=3/ (cycles/byte):        1.21       1.21       1.21       1.22       1.22
+size=    4096/align=4/ (cycles/byte):        1.21       1.21       1.22       1.22       1.22
+size=    4096/align=5/ (cycles/byte):        1.21       1.21       1.21       1.22       1.22
+size=    4096/align=6/ (cycles/byte):        1.21       1.21       1.21       1.21       1.22
+size=    4096/align=7/ (cycles/byte):        1.21       1.21       1.22       1.22       1.22
+
+size=    8192/align=0/ (cycles/byte):         1.2       1.21       1.21       1.21       1.21
+size=    8192/align=1/ (cycles/byte):         1.2        1.2        1.2       1.21       1.21
+size=    8192/align=2/ (cycles/byte):         1.2       1.21       1.21       1.21       1.21
+size=    8192/align=3/ (cycles/byte):         1.2        1.2       1.21       1.21       1.21
+size=    8192/align=4/ (cycles/byte):         1.2       1.21       1.21       1.21       1.21
+size=    8192/align=5/ (cycles/byte):         1.2       1.21       1.21       1.21       1.21
+size=    8192/align=6/ (cycles/byte):         1.2        1.2       1.21       1.21       1.22
+size=    8192/align=7/ (cycles/byte):         1.2        1.2       1.21       1.21       1.22
+
+size=   16384/align=0/ (cycles/byte):         1.2        1.2       1.21       1.21       1.23
+size=   16384/align=1/ (cycles/byte):         1.2        1.2        1.2        1.2       1.21
+size=   16384/align=2/ (cycles/byte):         1.2        1.2        1.2        1.2       1.21
+size=   16384/align=3/ (cycles/byte):         1.2        1.2        1.2        1.2        1.2
+size=   16384/align=4/ (cycles/byte):         1.2        1.2        1.2        1.2       1.21
+size=   16384/align=5/ (cycles/byte):         1.2        1.2        1.2        1.2       1.21
+size=   16384/align=6/ (cycles/byte):         1.2        1.2        1.2        1.2        1.2
+size=   16384/align=7/ (cycles/byte):         1.2        1.2        1.2        1.2       1.21
+
+size=   32768/align=0/ (cycles/byte):         1.2        1.2        1.2        1.2        1.2
+size=   32768/align=1/ (cycles/byte):         1.2        1.2        1.2        1.2        1.2
+size=   32768/align=2/ (cycles/byte):         1.2        1.2        1.2        1.2        1.2
+size=   32768/align=3/ (cycles/byte):         1.2        1.2        1.2        1.2        1.2
+size=   32768/align=4/ (cycles/byte):         1.2        1.2        1.2        1.2        1.2
+size=   32768/align=5/ (cycles/byte):         1.2        1.2        1.2        1.2        1.2
+size=   32768/align=6/ (cycles/byte):         1.2        1.2        1.2        1.2        1.2
+size=   32768/align=7/ (cycles/byte):         1.2        1.2        1.2        1.2        1.2
+
+size=   65536/align=0/ (cycles/byte):         1.2        1.2        1.2        1.2        1.2
+size=   65536/align=1/ (cycles/byte):         1.2        1.2        1.2       1.22       1.27
+size=   65536/align=2/ (cycles/byte):         1.2        1.2        1.2       1.21       1.27
+size=   65536/align=3/ (cycles/byte):         1.2        1.2        1.2        1.2       1.23
+size=   65536/align=4/ (cycles/byte):         1.2        1.2        1.2        1.2        1.2
+size=   65536/align=5/ (cycles/byte):         1.2        1.2        1.2        1.2        1.2
+size=   65536/align=6/ (cycles/byte):         1.2        1.2        1.2        1.2        1.2
+size=   65536/align=7/ (cycles/byte):        1.19        1.2        1.2        1.2        1.2
+
+size=  131072/align=0/ (cycles/byte):         1.2        1.2        1.2        1.2        1.2
+size=  131072/align=1/ (cycles/byte):         1.2        1.2        1.2        1.2        1.2
+size=  131072/align=2/ (cycles/byte):         1.2        1.2        1.2        1.2        1.2
+size=  131072/align=3/ (cycles/byte):         1.2        1.2        1.2        1.2        1.2
+size=  131072/align=4/ (cycles/byte):         1.2        1.2        1.2        1.2        1.2
+size=  131072/align=5/ (cycles/byte):         1.2        1.2        1.2        1.2        1.2
+size=  131072/align=6/ (cycles/byte):         1.2        1.2        1.2        1.2        1.2
+size=  131072/align=7/ (cycles/byte):         1.2        1.2        1.2        1.2        1.2
+
+size=  262144/align=0/ (cycles/byte):         1.2        1.2        1.2        1.2       1.21
+size=  262144/align=1/ (cycles/byte):         1.2        1.2        1.2        1.2        1.2
+size=  262144/align=2/ (cycles/byte):         1.2        1.2        1.2       1.21       1.25
+size=  262144/align=3/ (cycles/byte):         1.2        1.2        1.2        1.2        1.2
+size=  262144/align=4/ (cycles/byte):         1.2        1.2        1.2        1.2       1.21
+size=  262144/align=5/ (cycles/byte):         1.2        1.2       1.22       1.25       1.27
+size=  262144/align=6/ (cycles/byte):         1.2        1.2       1.21       1.25       1.26
+size=  262144/align=7/ (cycles/byte):         1.2        1.2        1.2        1.2       1.21
+
+size=  524288/align=0/ (cycles/byte):         1.2        1.2        1.2        1.2       1.21
+size=  524288/align=1/ (cycles/byte):         1.2        1.2        1.2        1.2       1.21
+size=  524288/align=2/ (cycles/byte):         1.2        1.2        1.2       1.22       1.24
+size=  524288/align=3/ (cycles/byte):         1.2        1.2        1.2       1.21       1.21
+size=  524288/align=4/ (cycles/byte):         1.2        1.2        1.2        1.2       1.21
+size=  524288/align=5/ (cycles/byte):         1.2        1.2        1.2       1.22       1.23
+size=  524288/align=6/ (cycles/byte):         1.2        1.2       1.23       1.25       1.27
+size=  524288/align=7/ (cycles/byte):         1.2        1.2       1.22       1.24       1.27
+
+size= 1048576/align=0/ (cycles/byte):         1.2        1.2       1.21       1.23       1.25
+size= 1048576/align=1/ (cycles/byte):         1.2        1.2       1.21       1.21       1.22
+size= 1048576/align=2/ (cycles/byte):         1.2       1.21       1.22       1.23       1.24
+size= 1048576/align=3/ (cycles/byte):         1.2       1.21       1.21       1.22       1.24
+size= 1048576/align=4/ (cycles/byte):         1.2       1.21       1.21       1.22       1.23
+size= 1048576/align=5/ (cycles/byte):         1.2        1.2       1.21       1.21       1.22
+size= 1048576/align=6/ (cycles/byte):         1.2       1.21       1.22       1.23       1.27
+size= 1048576/align=7/ (cycles/byte):         1.2       1.21       1.22       1.23       1.25
+
+

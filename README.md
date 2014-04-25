@@ -12,6 +12,9 @@ I've taken CRC routines from:
 Results
 -------
 
+Raw Results:
+* [Intel Core i3 2330M @ 2.20GHz](./log.i3-2330M-2.20GHz.txt)
+
 crc-mark-adler-hw is faster on longer buffers and slightly slower than crc-intel on smaller buffers. They are pretty much tied.
 
 crc-intel I'd consider second place.
