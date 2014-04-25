@@ -1,6 +1,6 @@
 all: crc_test
 
-CFLAGS=-O3 -g -msse4.2 -Wall -Wextra -Werror
+CFLAGS=-O3 -g -msse4.2 -Wall -Wextra -Werror -D_GNU_SOURCE
 LDFLAGS=-g -lpthread
 
 crc_test: crc_brumme.o main.o crc_sse42.o crc_iscsi_v_pcl.o crc-mark-adler.o adler32.o fletcher32.o

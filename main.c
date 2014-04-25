@@ -291,11 +291,18 @@ int main()
 	unsigned i;
 	int ret;
 	struct sched_param sparam = {.sched_priority = 50};
+	cpu_set_t cpuset;
 
 	ret = setpriority(PRIO_PROCESS, 0, -20);
 	printf("Priority set, ret=%d: %m\n", ret);
-	sched_setscheduler(0, SCHED_FIFO, &sparam);
+
+	ret = sched_setscheduler(0, SCHED_FIFO, &sparam);
 	printf("FIFO set, ret=%d: %m\n", ret);
+
+	CPU_ZERO(&cpuset);
+	CPU_SET(0, &cpuset);
+	ret = sched_setaffinity(0, sizeof(cpuset), &cpuset);
+	printf("Affinity set, ret=%d: %m\n", ret);
 
 	for (i = 0; i < sizeof(crc_funcs)/sizeof(crc_funcs[0]); i++) {
 		printf("Testing %s\n", crc_funcs[i].name);
