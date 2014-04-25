@@ -25,14 +25,12 @@ struct crc_funcs {
 };
 
 static struct crc_funcs crc_funcs[] = {
-	/*
-	{.name = "crc32_bitwise", .func = crc32_bitwise , verify=verify_crc32},
-	{.name = "crc32_halfbyte", .func = crc32_halfbyte , verify=verify_crc32},
-	*/
-	{.name = "crc32_4bytes", .func = crc32_4bytes , verify=verify_crc32},
-	{.name = "crc32_8bytes", .func = crc32_8bytes , verify=verify_crc32},
-	{.name = "crc32_sse42", .func = calculateCRC32C, verify=verify_crc32},
-	{.name = "crc_intel", .func= crc_pcl, verify=verify_crc32},
+	{.name = "crc32_bitwise", .func = crc32_bitwise , .verify=verify_crc32},
+	{.name = "crc32_halfbyte", .func = crc32_halfbyte , .verify=verify_crc32},
+	{.name = "crc32_4bytes", .func = crc32_4bytes , .verify=verify_crc32},
+	{.name = "crc32_8bytes", .func = crc32_8bytes , .verify=verify_crc32},
+	{.name = "crc32_sse42", .func = calculateCRC32C, .verify=verify_crc32},
+	{.name = "crc_intel", .func= crc_pcl, .verify=verify_crc32},
 	{.name = "crc32c_mark_sw", .func=crc32c_sw, .verify=verify_crc32},
 	{.name = "crc32c_mark_hw", .func=crc32c_hw, .verify=verify_crc32},
 	{.name = "adler32", .func=adler32, .verify=NULL},
