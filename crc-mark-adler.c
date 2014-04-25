@@ -37,17 +37,16 @@
 #include <stdlib.h>
 #include <stdint.h>
 #include <unistd.h>
-#include <pthread.h>
 
 /* CRC-32C (iSCSI) polynomial in reversed bit order. */
 #define POLY 0x82f63b78
 
 /* Table for a quadword-at-a-time software crc. */
-static pthread_once_t crc32c_once_sw = PTHREAD_ONCE_INIT;
 static uint32_t crc32c_table[8][256];
 
 /* Construct table for software CRC-32C calculation. */
-static void crc32c_init_sw(void) __attribute__((no-sse))
+static void crc32c_init_sw(void) __attribute__((constructor));
+static void crc32c_init_sw(void)
 {
     uint32_t n, crc, k;
 
@@ -80,7 +79,6 @@ uint32_t crc32c_sw(const void *buf, size_t len, uint32_t crci)
     const unsigned char *next = buf;
     uint64_t crc;
 
-    pthread_once(&crc32c_once_sw, crc32c_init_sw);
     crc = crci ^ 0xffffffff;
     while (len && ((uintptr_t)next & 7) != 0) {
         crc = crc32c_table[0][(crc ^ *next++) & 0xff] ^ (crc >> 8);
@@ -210,11 +208,11 @@ static inline uint32_t crc32c_shift(uint32_t zeros[][256], uint32_t crc)
 #define SHORTx2 "512"
 
 /* Tables for hardware crc that shift a crc by LONG and SHORT zeros. */
-static pthread_once_t crc32c_once_hw = PTHREAD_ONCE_INIT;
 static uint32_t crc32c_long[4][256];
 static uint32_t crc32c_short[4][256];
 
 /* Initialize tables for shifting crcs. */
+static void crc32c_init_hw(void) __attribute__((constructor));
 static void crc32c_init_hw(void)
 {
     crc32c_zeros(crc32c_long, LONG);
@@ -227,9 +225,6 @@ uint32_t crc32c_hw(const void *buf, size_t len, uint32_t crc)
     const unsigned char *next = buf;
     const unsigned char *end;
     uint64_t crc0, crc1, crc2;      /* need to be 64 bits for crc32q */
-
-    /* populate shift tables the first time through */
-    pthread_once(&crc32c_once_hw, crc32c_init_hw);
 
     /* pre-process the crc */
     crc0 = crc ^ 0xffffffff;
