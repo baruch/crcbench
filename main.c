@@ -36,6 +36,7 @@ static struct crc_funcs crc_funcs[] = {
 	{.name = "adler32", .func=adler32, .verify=NULL},
 	{.name = "fletcher32", .func=fletcher32, .verify=NULL},
 	{.name = "fletcher32_4", .func=fletcher32_4, .verify=NULL},
+	{.name = "pg_csum", .func=pg_checksum_block, .verify = NULL},
 };
 
 static void fill_buf(void *data, size_t data_size)

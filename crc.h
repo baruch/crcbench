@@ -23,4 +23,6 @@ uint32_t adler32(const void *buf1, size_t len, uint32_t adler);
 uint32_t fletcher32(const void *buf, size_t len, uint32_t fletcher);
 uint32_t fletcher32_4(const void *buf1, size_t len, uint32_t fletcher);
 
+uint32_t pg_checksum_block(const void *data1, size_t size, uint32_t init_val);
+
 #endif
