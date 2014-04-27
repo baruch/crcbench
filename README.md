@@ -28,3 +28,8 @@ Pending tests
 -------------
 
 Still need to test the code from crcutil: http://code.google.com/p/crcutil/
+
+Resources
+---------
+
+* [Software and Digital Systems Program - Data Integrity Techniques](http://users.ece.cmu.edu/~koopman/pubs/01oct2013_koopman_faa_final_presentation.pdf) (PDF) -- Discusses different CRC and checksum qualities in a quantitative form [source blog](http://checksumcrc.blogspot.co.il/)
